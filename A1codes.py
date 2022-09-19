@@ -31,21 +31,28 @@ def minimizeL1(X, y):
     G = np.concatenate((GFirstRow, GSecondRow), axis=0)
     G = np.concatenate((G, GThirdRow), axis=0)
     G = G.astype(np.double)
-    print(G)
+    print("before transpose", G)
+    #G = G.transpose()
+    G = matrix(G)
+    print("after transpose", G)
 
     emptyVectorN = np.zeros((n, 1)).astype(int)
     negativeY = np.negative(y)
 
+
     h = np.concatenate((emptyVectorN, y), axis=0)
     h = np.concatenate((h, negativeY), axis=0)
-
-    #h = np.maximum(h, h.transpose())
+    h = h.astype(np.double)
+    h = h.flatten()
+    h = matrix(h)
     print(h)
 
-    c = matrix([-1.0, -1.0])
+    firstHalfOfC = np.zeros(d)
+    secondHathOfC = np.ones(n)
 
+    c = np.concatenate((firstHalfOfC, secondHathOfC))
+    c = matrix(c)
     print(c)
-    print(3*n)
 
     w = solvers.lp(c, G, h)
     return w
@@ -56,11 +63,13 @@ def minimizeLinf(X, y):
 
 from cvxopt import matrix, solvers
 
-A = matrix([[0.0, 0.0, 0.0, -1.0, 0.0], [0.0, 0.0, 0.0, 0.0, -1.0]])
-b = matrix([0.0, 0.0, 1.0, 1.0, 0.0])
-c = matrix([1.0, 1.0])
+A = matrix([[0., 0., 1., 4., -1., -4.],[0., 0., 2., 5., -2., -5.], [0., 0., 3., 6., -3., -6.], [-1., 0., -1., 0., -1., 0.],[0., -1., 0., -1., 0., -1.]])
+b = matrix([0.0, 0.0, 3.0, 5.0, -3.0, -5.0])
+c = matrix([0., 0., 0., 1., 1.])
 
 print(A)
+print(b)
+print(c)
 
 sol=solvers.lp(c,A,b)
 print(sol['x'])
@@ -70,6 +79,7 @@ X = np.array([[1,2,3],[4,5,6]])
 y = np.array([[3],[5]])
 
 w = minimizeL1(X, y)
+print(w['x'])
 
 
 
