@@ -9,13 +9,15 @@ X = np.array([[4, 1], [3, 3], [7, 8]])
 y = np.array([[6], [13], [23]])
 
 def minimizeL2(X, y):
-    XInverse = np.linalg.inv(X);
+    print("Starting L2")
+    XT = X.T
 
-    w = XInverse * y
+    w = np.matmul((np.matmul(XT,X)^-1),np.matmul(XT,y))
 
     return w
 
 def minimizeL1(X, y):
+    print("Starting L1")
     n = len(X)
     d = len(X[0])
     identityMatrixN = np.identity(n)
@@ -58,8 +60,19 @@ def minimizeL1(X, y):
     return w
 
 def minimizeLinf(X, y):
+    print("Starting Linf")
     n = len(X)
     d = len(X[0])
+
+
+
+def loadData(dataset_folder, dataset_name):
+    #auto-mpg remove origin and car name columns, and any rows with missing data, mpg is y, rest is X
+    #parkinsons use status as y, rest as X
+    #Sonar 
+
+    X = np.zeros(3,5)
+    return X,y
 
 from cvxopt import matrix, solvers
 
@@ -77,11 +90,8 @@ print(sol['x'])
 X = np.array([[1,2,3],[4,5,6]])
 
 y = np.array([[3],[5]])
-
+w = minimizeL2(X,y)
+print(w)
 w = minimizeL1(X, y)
+print(w)
 print(w['x'])
-
-
-
-#def minimizeLinf(X, y):
-
