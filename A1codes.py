@@ -3,6 +3,7 @@ import numpy as np
 import cvxopt.solvers as solvers
 from cvxopt import matrix;
 import math
+from autograd import grad
 from matplotlib import pyplot as plt
 #from jax import grad
 
@@ -16,18 +17,6 @@ def L2Norm(vector):
         sum = sum + math.pow(vector[counter], 2)
     return sum
 
-def sigmoid(vector):
-    for counter in range(len(vector)):
-        vector[counter] = 1 / (1 + np.exp(-1 * vector[counter]))
-
-    return vector
-
-def sigmoid_derivative(vector):
-    for counter in range(len(vector)):
-        vector[counter] = np.exp(-1 * vector) / math.pow(1 + np.exp(-1 * vector), 2)
-
-    return vector
-
 def minimizeL2(X, y):
     print("Starting L2")
     XT = X.T
@@ -39,7 +28,9 @@ def minimizeL2(X, y):
 def minimizeL1(X, y):
     print("Starting L1")
     n = len(X)
+    print("n: ", n)
     d = len(X[0])
+    print("d: ", d)
     identityMatrixN = np.identity(n)
     negativeIdentityMatrixN = np.negative(identityMatrixN)
     negativeIdentityMatrixN = negativeIdentityMatrixN.astype(int)
@@ -70,16 +61,22 @@ def minimizeL1(X, y):
     c = np.concatenate((firstHalfOfC, secondHathOfC))
     c = matrix(c)
 
+    print("G: ", G)
+    print("c: ", c)
+    print("h: ", h)
+
     w = solvers.lp(c, G, h)
     return w
 
 def minimizeLinf(X, y):
     print("Starting Linf")
     n = len(X)
+    print("n: ", n)
     d = len(X[0])
+    print("d: ", d)
     negativeIdentityVectorNRow = np.ones(n)
     negativeIdentityVectorNCol = negativeIdentityVectorNRow.reshape((n,1))
-    negativeIdentityVectorN = negativeIdentityVectorNCol.astype(int)
+    negativeIdentityVectorN = -negativeIdentityVectorNCol.astype(int)
     emptyMatrixNxD = np.zeros((n, d)).astype(int)
     negativeX = np.negative(X)
 
@@ -90,9 +87,8 @@ def minimizeLinf(X, y):
     G = np.concatenate((GFirstRow, GSecondRow), axis=0)
     G = np.concatenate((G, GThirdRow), axis=0)
     G = G.astype(np.double)
-    G = matrix(G)
-
     print(G)
+    G = matrix(G)
 
     emptyVectorN = np.zeros((n, 1)).astype(int)
     negativeY = np.negative(y)
@@ -103,23 +99,28 @@ def minimizeLinf(X, y):
     h = h.flatten()
     h = matrix(h)
 
-    print(h)
-
     firstHalfOfC = np.zeros(d)
     secondHathOfC = np.ones(1)
 
     c = np.concatenate((firstHalfOfC, secondHathOfC))
     c = matrix(c)
 
-    print(c)
-
     w = solvers.lp(c, G, h)
     return w
+
+def synRegExperiments():
+    n = 30  # number of data points
+    d = 5  # dimension
+    noise = 0.2
+    X = np.random.randn(n, d)  # input matrix
+    X = np.concatenate((np.ones((n, 1)), X), axis=1)  # augment input
+    w_true = np.random.randn(d + 1, 1)  # true model parameters
+    y = X @ w_true + np.random.randn(n, 1) * noise  # ground truth label
 
 def linearRegL20bj(w, X, y):
     n = len(X)
 
-    a = X*w + y
+    a = np.matmul(X, w) + y
     total = 0
 
     for counter in range(len(a)):
@@ -136,38 +137,91 @@ def gb(obj_func, w_init, X, y, eta, max_iter, tol):
     w = w_init
 
     for counter in range(max_iter):
-        w = linearRegL20bj(w, X, y)
+        w = obj_func(w, X, y)
         if (L2Norm(w) < tol):
             break
-        w = w - eta * linearRegL20bj(w, X, y)
+        w = w - eta * obj_func(w, X, y)
     return w
 
 def logisticRegObj(w, X, y):
     n = len(X[0])
 
-    leftPart = -1 * y * np.log(sigmoid(X * w))
-    rightPart = -1 * (1 - y) * np.log(1 - sigmoid(X * w))
+    Xw = np.matmul(X, w)
+
+    print(Xw)
+    a_ = np.logaddexp(0, -Xw)
+    print(a_)
+    print(y)
+    print()
+
+    leftPart = y * np.logaddexp(0, -Xw)
+
+    rightPart = (1 - y) * (0.4342944819 * Xw + np.logaddexp(0, -Xw))
 
     obj_value = (leftPart + rightPart)/n
 
-    topPart = -1 * (y/sigmoid(X * w)) * sigmoid_derivative(X * w) - (1 - y)/(1 - sigmoid(X * w)) * sigmoid_derivative(X * w)
-    bottomPart = n * (leftPart + rightPart)
-
-    grad = topPart/bottomPart
+    grad = (np.logaddexp(0, Xw) - y) * X
 
     return obj_value, grad
 
-X = np.array([[5, 3, 8],[34, 32, 1], [87, 5, 9]])
+def synClsExperiments():
 
-y = np.array([[3],[5], [8]])
+    for counter in range(4):
+        for counter2 in range(3):
+            # data generation
+            if counter2 == 0:
+                if counter == 0:
+                    m = 10
+                else:
+                    m = 50 * math.pow(2, (counter - 1))
+            else:
+                m = 100  # number of data points *per class*
+            if counter2 == 1:
+                d = math.pow(2, counter)
+            else:
+                d = 2  # dimension
+            c0 = np.ones([1, d])  # class 0 center
+            c1 = -np.ones([1, d])  # class 1 center
+            X0 = np.random.randn(m, d) + c0  # class 0 input
+            X1 = np.random.randn(m, d) + c1  # class 1 input
+            X = np.concatenate((X0, X1), axis=0)
+            X = np.concatenate((np.ones((2 * m, 1)), X), axis=1)  # augmentation
+            y = np.concatenate([np.zeros([m, 1]), np.ones([m, 1])], axis=0)
+            # learning
+            if counter2 == 2:
+                eta = 0.1 * (10^counter)
+            else:
+                eta = 0.1  # learning rate
+            max_iter = 1000  # maximum number of iterations
+            tol = 1e-10  # tolerance
+            w_init = np.random.randn(d + 1, 1)
+            w_logit = gb(logisticRegObj, w_init, X, y, eta, max_iter, tol)
+
+w = minimizeL1(X, y)
+
+print(w['x'])
 
 w = minimizeLinf(X, y)
-print(w)
 
-out_num = np.logaddexp(0, 1)
+print(w['x'])
 
-print(out_num)
-print(np.log(np.exp(0) + np.exp(1)))
+X = np.array([[4, 1], [3, 3], [7, 8]]) # n x d
+w = np.array([[9], [3]]) # d x 1
+y = np.array([[3], [4], [8]])
+
+#minimizeL2deriv(X, y)
+
+obj_func, grad = linearRegL20bj(w, X, y)
+
+print(obj_func)
+print(grad)
+
+obj_func, grad = logisticRegObj(w, X, y)
+
+print(obj_func)
+print(grad)
+#print(round(np.exp(np.log(5))))
+
 def loadData(dataset_folder, dataset_name):
     #auto-mpg remove origin and car name columns, and any rows with missing data, mpg is y, rest is X
     #parkinsons use status as y, rest as X
