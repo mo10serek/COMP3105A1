@@ -6,7 +6,7 @@
 #       We will use a different script to test your codes. 
 import numpy as np
 from matplotlib import pyplot as plt
-import YourName.A1codes as A1codes
+import A1codes
 
 
 def augmentX(X):
@@ -45,12 +45,12 @@ def _plotReg():
 def _plotCls():
 
 	# 2D classification example
-	n = 100
+	m = 100
 	d = 2
 	c0 = np.array([[1, 1]])  # cls 0 center
 	c1 = np.array([[-1, -1]])  # cls 1 center
-	X0 = np.random.randn(n, 2) + c0
-	X1 = np.random.randn(n, 2) + c1
+	X0 = np.random.randn(m, 2) + c0
+	X1 = np.random.randn(m, 2) + c1
 
 	# plot data points
 	plt.scatter(X0[:, 0], X0[:, 1], marker='x')
@@ -58,10 +58,10 @@ def _plotCls():
 
 	X = np.concatenate((X0, X1), axis=0)
 	X = augmentX(X)
-	y = np.concatenate([np.zeros([n, 1]), np.ones([n, 1])], axis=0)  # class labels
+	y = np.concatenate([np.zeros([m, 1]), np.ones([m, 1])], axis=0)  # class labels
 
 	# gradient descent
-	w_gd = A1codes.gd(A1codes.logisticRegObj, np.random.randn(d + 1, 1), X, y, 0.1, 1000, 1e-10)
+	w_gd = A1codes.geb(A1codes.logisticRegObj, np.random.randn(d + 1, 1), X, y, 0.1, 1000, 1e-10)
 
 	# plot models
 	x_grid = np.arange(-4, 4, 0.01)

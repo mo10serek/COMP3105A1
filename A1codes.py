@@ -1,7 +1,7 @@
 import cvxopt
 import numpy as np
 import cvxopt.solvers as solvers
-from cvxopt import matrix;
+from cvxopt import matrix
 import math
 from autograd import grad
 from matplotlib import pyplot as plt
@@ -13,24 +13,39 @@ y = np.array([[6], [13], [23]])
 
 def L2Norm(vector):
     sum = 0
+    print(vector)
     for counter in range(len(vector)):
         sum = sum + math.pow(vector[counter], 2)
     return sum
 
+def squaredLoss(y_hats, y_actual, n):
+    a = y_hats - y_actual
+    sum = 0
+    for counter in range(len(a)):
+        sum = sum + math.pow(a[counter], 2)
+    sum = sum/(2 * n)
+    return sum
+
 def minimizeL2(X, y):
-    print("Starting L2")
+    #print("Starting L2")
     XT = X.T
 
-    w = np.matmul((np.matmul(XT,X)^-1),np.matmul(XT,y))
+    w = np.matmul(np.linalg.matrix_power(np.matmul(XT,X),-1),np.matmul(XT,y))
 
     return w
 
+def absoluteLoss(y_hats, y_actual, n):
+    a = y_hats - y_actual
+    sum = 0
+    for counter in range(len(a)):
+        sum = sum + math.abs(a[counter])
+    sum = sum/n
+    return sum
+
 def minimizeL1(X, y):
-    print("Starting L1")
+    #print("Starting L1")
     n = len(X)
-    print("n: ", n)
     d = len(X[0])
-    print("d: ", d)
     identityMatrixN = np.identity(n)
     negativeIdentityMatrixN = np.negative(identityMatrixN)
     negativeIdentityMatrixN = negativeIdentityMatrixN.astype(int)
@@ -61,19 +76,20 @@ def minimizeL1(X, y):
     c = np.concatenate((firstHalfOfC, secondHathOfC))
     c = matrix(c)
 
-    print("G: ", G)
-    print("c: ", c)
-    print("h: ", h)
-
     w = solvers.lp(c, G, h)
-    return w
+    return w["x"][0:d]
+
+def infinityLoss(y_hats, y_actual, n):
+    a = y_hats - y_actual
+    sum = 0
+    for counter in range(len(a)):
+        sum = sum + math.abs(a[counter])
+    return sum
 
 def minimizeLinf(X, y):
-    print("Starting Linf")
+    #print("Starting Linf")
     n = len(X)
-    print("n: ", n)
     d = len(X[0])
-    print("d: ", d)
     negativeIdentityVectorNRow = np.ones(n)
     negativeIdentityVectorNCol = negativeIdentityVectorNRow.reshape((n,1))
     negativeIdentityVectorN = -negativeIdentityVectorNCol.astype(int)
@@ -87,7 +103,6 @@ def minimizeLinf(X, y):
     G = np.concatenate((GFirstRow, GSecondRow), axis=0)
     G = np.concatenate((G, GThirdRow), axis=0)
     G = G.astype(np.double)
-    print(G)
     G = matrix(G)
 
     emptyVectorN = np.zeros((n, 1)).astype(int)
@@ -106,16 +121,63 @@ def minimizeLinf(X, y):
     c = matrix(c)
 
     w = solvers.lp(c, G, h)
-    return w
+    return w["x"][0:d]
 
 def synRegExperiments():
-    n = 30  # number of data points
+
     d = 5  # dimension
     noise = 0.2
-    X = np.random.randn(n, d)  # input matrix
-    X = np.concatenate((np.ones((n, 1)), X), axis=1)  # augment input
-    w_true = np.random.randn(d + 1, 1)  # true model parameters
-    y = X @ w_true + np.random.randn(n, 1) * noise  # ground truth label
+    for counter in range(100):
+        n = 30  # number of data points
+        X = np.random.randn(n, d)  # input matrix
+        X = np.concatenate((np.ones((n, 1)), X), axis=1)  # augment input
+        w_true = np.random.randn(d + 1, 1)  # true model parameters
+        y = X @ w_true + np.random.randn(n, 1) * noise  # ground truth label
+
+        l2w = minimizeL2(X, y)
+        l1w = minimizeL1(X, y)
+        linfw = minimizeLinf(X, y)
+
+        l2modelOnL2Loss = squaredLoss(np.matmul(X, l2w), y, n)
+        l2modelOnL1Loss = squaredLoss(np.matmul(X, l1w), y, n)
+        l2modelOnLInfLoss = squaredLoss(np.matmul(X, linfw), y, n)
+        l1modelOnL2Loss = squaredLoss(np.matmul(X, l2w), y, n)
+        l1modelOnL1Loss = squaredLoss(np.matmul(X, l1w), y, n)
+        l1modelOnLInfLoss = squaredLoss(np.matmul(X, linfw), y, n)
+        lInfModelOnL2Loss = squaredLoss(np.matmul(X, l2w), y, n)
+        lInfModelOnL1Loss = squaredLoss(np.matmul(X, l1w), y, n)
+        lInfModelOnLInfLoss = squaredLoss(np.matmul(X, linfw), y, n)
+
+        trainingLoss = np.array([[l2modelOnL2Loss, l2modelOnL1Loss, l2modelOnLInfLoss],
+                                 [l1modelOnL2Loss, l1modelOnL1Loss, l1modelOnLInfLoss],
+                                 [lInfModelOnL2Loss, lInfModelOnL1Loss, lInfModelOnLInfLoss]])
+
+        n = 1000
+        X = np.random.randn(n, d)  # input matrix
+        X = np.concatenate((np.ones((n, 1)), X), axis=1)  # augment input
+        w_true = np.random.randn(d + 1, 1)  # true model parameters
+        y = X @ w_true + np.random.randn(n, 1) * noise  # ground truth label
+
+        l2w = minimizeL2(X, y)
+        l1w = minimizeL1(X, y)
+        linfw = minimizeLinf(X, y)
+
+        l2modelOnL2Loss = squaredLoss(np.matmul(X, l2w), y, n)
+        l2modelOnL1Loss = squaredLoss(np.matmul(X, l1w), y, n)
+        l2modelOnLInfLoss = squaredLoss(np.matmul(X, linfw), y, n)
+        l1modelOnL2Loss = squaredLoss(np.matmul(X, l2w), y, n)
+        l1modelOnL1Loss = squaredLoss(np.matmul(X, l1w), y, n)
+        l1modelOnLInfLoss = squaredLoss(np.matmul(X, linfw), y, n)
+        lInfModelOnL2Loss = squaredLoss(np.matmul(X, l2w), y, n)
+        lInfModelOnL1Loss = squaredLoss(np.matmul(X, l1w), y, n)
+        lInfModelOnLInfLoss = squaredLoss(np.matmul(X, linfw), y, n)
+
+        testLoss = np.array([[l2modelOnL2Loss, l2modelOnL1Loss, l2modelOnLInfLoss],
+                            [l1modelOnL2Loss, l1modelOnL1Loss, l1modelOnLInfLoss],
+                            [lInfModelOnL2Loss, lInfModelOnL1Loss, lInfModelOnLInfLoss]])
+
+    return trainingLoss, testLoss
+
 
 def linearRegL20bj(w, X, y):
     n = len(X)
@@ -132,8 +194,7 @@ def linearRegL20bj(w, X, y):
 
     return obj_func, grad
 
-def gb(obj_func, w_init, X, y, eta, max_iter, tol):
-
+def geb(obj_func, w_init, X, y, eta, max_iter, tol):
     w = w_init
 
     for counter in range(max_iter):
@@ -163,6 +224,7 @@ def logisticRegObj(w, X, y):
     grad = (np.logaddexp(0, Xw) - y) * X
 
     return obj_value, grad
+
 
 def synClsExperiments():
 
@@ -197,29 +259,17 @@ def synClsExperiments():
             w_init = np.random.randn(d + 1, 1)
             w_logit = gb(logisticRegObj, w_init, X, y, eta, max_iter, tol)
 
-w = minimizeL1(X, y)
+#synRegExperiments()
 
-print(w['x'])
+#obj_func, grad = linearRegL20bj(w, X, y)
 
-w = minimizeLinf(X, y)
+#print(obj_func)
+#print(grad)
 
-print(w['x'])
+#obj_func, grad = logisticRegObj(w, X, y)
 
-X = np.array([[4, 1], [3, 3], [7, 8]]) # n x d
-w = np.array([[9], [3]]) # d x 1
-y = np.array([[3], [4], [8]])
-
-#minimizeL2deriv(X, y)
-
-obj_func, grad = linearRegL20bj(w, X, y)
-
-print(obj_func)
-print(grad)
-
-obj_func, grad = logisticRegObj(w, X, y)
-
-print(obj_func)
-print(grad)
+#print(obj_func)
+#print(grad)
 #print(round(np.exp(np.log(5))))
 
 def loadData(dataset_folder, dataset_name):
