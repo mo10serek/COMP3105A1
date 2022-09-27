@@ -61,7 +61,7 @@ def _plotCls():
 	y = np.concatenate([np.zeros([m, 1]), np.ones([m, 1])], axis=0)  # class labels
 
 	# gradient descent
-	w_gd = A1codes.geb(A1codes.logisticRegObj, np.random.randn(d + 1, 1), X, y, 0.1, 1000, 1e-10)
+	w_gd = A1codes.geb(A1codes.linearRegL20bj, np.random.randn(d + 1, 1), X, y, 0.1, 1000, 1e-10)
 
 	# plot models
 	x_grid = np.arange(-4, 4, 0.01)

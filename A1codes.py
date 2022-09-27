@@ -12,10 +12,17 @@ X = np.array([[4, 1], [3, 3], [7, 8]])
 y = np.array([[6], [13], [23]])
 
 def L2Norm(vector):
+
     sum = 0
     print(vector)
+    print(len(vector))
     for counter in range(len(vector)):
-        sum = sum + math.pow(vector[counter], 2)
+        try:
+            print(counter)
+            print(vector[counter])
+            sum = sum + math.pow(vector[counter], 2)
+        except OverflowError:
+            sum = sum + float('inf')
     return sum
 
 def squaredLoss(y_hats, y_actual, n):
@@ -127,6 +134,9 @@ def synRegExperiments():
 
     d = 5  # dimension
     noise = 0.2
+
+    trainingLoss = np.empty((3, 3))
+    testLoss = np.empty((3, 3))
     for counter in range(100):
         n = 30  # number of data points
         X = np.random.randn(n, d)  # input matrix
@@ -178,30 +188,34 @@ def synRegExperiments():
 
     return trainingLoss, testLoss
 
-
 def linearRegL20bj(w, X, y):
     n = len(X)
 
     a = np.matmul(X, w) + y
+
     total = 0
 
     for counter in range(len(a)):
         total = total + math.pow(a[counter], 2)
 
-    obj_func = total/(2*n)
+    obj_val = total/(2*n)
 
-    grad = (X * a)/ n
+    XT = X.T
 
-    return obj_func, grad
+    inside = np.matmul(X, w) - y
+
+    grad = np.matmul(XT, inside)/ n
+
+    return obj_val, grad
 
 def geb(obj_func, w_init, X, y, eta, max_iter, tol):
     w = w_init
 
     for counter in range(max_iter):
-        w = obj_func(w, X, y)
-        if (L2Norm(w) < tol):
+        obj_val, grad = obj_func(w, X, y)
+        if (L2Norm(grad) < tol):
             break
-        w = w - eta * obj_func(w, X, y)
+        w = eta * grad
     return w
 
 def logisticRegObj(w, X, y):
@@ -209,25 +223,23 @@ def logisticRegObj(w, X, y):
 
     Xw = np.matmul(X, w)
 
-    print(Xw)
-    a_ = np.logaddexp(0, -Xw)
-    print(a_)
-    print(y)
-    print()
-
     leftPart = y * np.logaddexp(0, -Xw)
 
     rightPart = (1 - y) * (0.4342944819 * Xw + np.logaddexp(0, -Xw))
 
     obj_value = (leftPart + rightPart)/n
 
-    grad = (np.logaddexp(0, Xw) - y) * X
+    y_hat_munis_y = (np.logaddexp(0, Xw) - y)
 
+    grad = np.matmul(y_hat_munis_y.T, X)
+
+    grad = grad[0]
     return obj_value, grad
-
 
 def synClsExperiments():
 
+    train_acc = np.empty((4, 3))
+    test_acc = np.empty((4, 3))
     for counter in range(4):
         for counter2 in range(3):
             # data generation
@@ -235,13 +247,15 @@ def synClsExperiments():
                 if counter == 0:
                     m = 10
                 else:
-                    m = 50 * math.pow(2, (counter - 1))
+                    m = 50 * int(math.pow(2, (counter - 1)))
             else:
                 m = 100  # number of data points *per class*
             if counter2 == 1:
-                d = math.pow(2, counter)
+                d = int(math.pow(2, counter))
             else:
                 d = 2  # dimension
+            print(counter)
+            print(d)
             c0 = np.ones([1, d])  # class 0 center
             c1 = -np.ones([1, d])  # class 1 center
             X0 = np.random.randn(m, d) + c0  # class 0 input
@@ -257,20 +271,24 @@ def synClsExperiments():
             max_iter = 1000  # maximum number of iterations
             tol = 1e-10  # tolerance
             w_init = np.random.randn(d + 1, 1)
-            w_logit = gb(logisticRegObj, w_init, X, y, eta, max_iter, tol)
+            w_logit = geb(logisticRegObj, w_init, X, y, eta, max_iter, tol)
+
+            w_average = 0
+            for counter3 in range(len(w_logit)):
+                w_average = w_logit[counter3]
+            w_average = w_average/len(w_logit)
+
+            train_acc[counter][counter2] = w_average
+
+    print(train_acc)
 
 #synRegExperiments()
 
 #obj_func, grad = linearRegL20bj(w, X, y)
 
-#print(obj_func)
-#print(grad)
-
 #obj_func, grad = logisticRegObj(w, X, y)
 
-#print(obj_func)
-#print(grad)
-#print(round(np.exp(np.log(5))))
+synClsExperiments()
 
 def loadData(dataset_folder, dataset_name):
     #auto-mpg remove origin and car name columns, and any rows with missing data, mpg is y, rest is X
