@@ -1,4 +1,5 @@
 import cvxopt
+import pandas as pd
 import numpy as np
 import cvxopt.solvers as solvers
 from cvxopt import matrix;
@@ -113,7 +114,55 @@ print(w)
 def loadData(dataset_folder, dataset_name):
     #auto-mpg remove origin and car name columns, and any rows with missing data, mpg is y, rest is X
     #parkinsons use status as y, rest as X
-    #Sonar 
+    #Sonar last column will be split off to labels, with Rs changing to 0 and Ms to 1s, the rest will be input features
+    
+    #read file
+    
+    #input file data into matrixies
+    if(dataset_name == "auto-mpg.data"):
+        data = pd.read_csv(dataset_folder,delim_whitespace=True)
+        print("\n\n")
+        data.columns=["mpg","cylinders","displacement","horsepower","weight","acceleration","model year","origin","car name"]
+        print(data)
+        data = data.drop(columns=["origin","car name"])
+        y = data["mpg"]
+        X = data.drop(columns=["mpg"])
+        X = X[X.horsepower != "?"]
+        X = X.to_numpy()
+        y = y.to_numpy()
+        print(y)
+        print(X)
+        return X,y
+    elif(dataset_name == "parkinsons.data"):
+        data = pd.read_csv(dataset_folder,sep=",")
+        y = data["status"]
+        X = data.drop(columns="status")
+        print("\n\n")
+        X = X.to_numpy()
+        y = y.to_numpy()
+        print(y)
+        print(X)
+        return X,y
+        
+    elif(dataset_name == "sonar.all-data"):
+        print("\n\n")
+        data = pd.read_csv(dataset_folder,sep=",")
+        y = np.where(data["R"]=='R',0,1)
+        #have to convert y into 1s and 0s rather than Rs and Ms
+        
+        X = data.drop(columns="R")
+        X = X.to_numpy()
+        print(y)
+        print(X)
+        return X,y
+    return
 
-    X = np.zeros(3,5)
-    return X,y
+
+
+
+def realExperiments(dataset_folder,dataset_name):
+
+    return
+
+
+loadData("C:/Users/Kubaz/Downloads/parkinsons.data", "parkinsons.data")
