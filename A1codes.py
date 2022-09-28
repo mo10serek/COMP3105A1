@@ -18,8 +18,6 @@ def L2Norm(vector):
     print(len(vector))
     for counter in range(len(vector)):
         try:
-            print(counter)
-            print(vector[counter])
             sum = sum + math.pow(vector[counter], 2)
         except OverflowError:
             sum = sum + float('inf')
@@ -132,6 +130,8 @@ def minimizeLinf(X, y):
 
 def synRegExperiments():
 
+    f = open("trainingData.txt", "w")
+
     d = 5  # dimension
     noise = 0.2
 
@@ -162,10 +162,12 @@ def synRegExperiments():
                                  [l1modelOnL2Loss, l1modelOnL1Loss, l1modelOnLInfLoss],
                                  [lInfModelOnL2Loss, lInfModelOnL1Loss, lInfModelOnLInfLoss]])
 
+        createTable(trainingLoss, "training loss", f)
+
         n = 1000
         X = np.random.randn(n, d)  # input matrix
         X = np.concatenate((np.ones((n, 1)), X), axis=1)  # augment input
-        w_true = np.random.randn(d + 1, 1)  # true model parameters
+        #w_true = np.random.randn(d + 1, 1)  # true model parameters
         y = X @ w_true + np.random.randn(n, 1) * noise  # ground truth label
 
         l2w = minimizeL2(X, y)
@@ -186,6 +188,9 @@ def synRegExperiments():
                             [l1modelOnL2Loss, l1modelOnL1Loss, l1modelOnLInfLoss],
                             [lInfModelOnL2Loss, lInfModelOnL1Loss, lInfModelOnLInfLoss]])
 
+        createTable(testLoss, "test loss", f)
+
+    f.close()
     return trainingLoss, testLoss
 
 def linearRegL20bj(w, X, y):
@@ -238,56 +243,135 @@ def logisticRegObj(w, X, y):
 
 def synClsExperiments():
 
-    train_acc = np.empty((4, 3))
-    test_acc = np.empty((4, 3))
-    for counter in range(4):
-        for counter2 in range(3):
-            # data generation
-            if counter2 == 0:
-                if counter == 0:
-                    m = 10
+    f = open("trainingData.txt", "w")
+
+    for step in range(100):
+        train_acc = np.empty((4, 3))
+        test_acc = np.empty((4, 3))
+
+        for counter in range(4):
+            for counter2 in range(3):
+                # data generation
+                if counter2 == 0:
+                    if counter == 0:
+                        m = 10
+                    else:
+                        m = 50 * int(math.pow(2, (counter - 1)))
                 else:
-                    m = 50 * int(math.pow(2, (counter - 1)))
-            else:
-                m = 100  # number of data points *per class*
-            if counter2 == 1:
-                d = int(math.pow(2, counter))
-            else:
-                d = 2  # dimension
-            print(counter)
-            print(d)
-            c0 = np.ones([1, d])  # class 0 center
-            c1 = -np.ones([1, d])  # class 1 center
-            X0 = np.random.randn(m, d) + c0  # class 0 input
-            X1 = np.random.randn(m, d) + c1  # class 1 input
-            X = np.concatenate((X0, X1), axis=0)
-            X = np.concatenate((np.ones((2 * m, 1)), X), axis=1)  # augmentation
-            y = np.concatenate([np.zeros([m, 1]), np.ones([m, 1])], axis=0)
-            # learning
-            if counter2 == 2:
-                eta = 0.1 * (10^counter)
-            else:
-                eta = 0.1  # learning rate
-            max_iter = 1000  # maximum number of iterations
-            tol = 1e-10  # tolerance
-            w_init = np.random.randn(d + 1, 1)
-            w_logit = geb(logisticRegObj, w_init, X, y, eta, max_iter, tol)
+                    m = 100  # number of data points *per class*
+                if counter2 == 1:
+                    d = int(math.pow(2, counter))
+                else:
+                    d = 2  # dimension
+                c0 = np.ones([1, d])  # class 0 center
+                c1 = -np.ones([1, d])  # class 1 center
+                X0 = np.random.randn(m, d) + c0  # class 0 input
+                X1 = np.random.randn(m, d) + c1  # class 1 input
+                X = np.concatenate((X0, X1), axis=0)
+                X = np.concatenate((np.ones((2 * m, 1)), X), axis=1)  # augmentation
+                y = np.concatenate([np.zeros([m, 1]), np.ones([m, 1])], axis=0)
+                # learning
+                if counter2 == 2:
+                    eta = 0.1 * (10^counter)
+                else:
+                    eta = 0.1  # learning rate
+                max_iter = 1000  # maximum number of iterations
+                tol = 1e-10  # tolerance
+                w_init = np.random.randn(d + 1, 1)
+                w_logit = geb(logisticRegObj, w_init, X, y, eta, max_iter, tol)
 
-            w_average = 0
-            for counter3 in range(len(w_logit)):
-                w_average = w_logit[counter3]
-            w_average = w_average/len(w_logit)
+                w_average = 0
+                for counter3 in range(len(w_logit)):
+                    w_average = w_logit[counter3]
+                w_average = w_average/len(w_logit)
 
-            train_acc[counter][counter2] = w_average
+                train_acc[counter][counter2] = w_average
+
+        for counter in range(4):
+            for counter2 in range(3):
+                # data generation
+                if counter2 == 0:
+                    if counter == 0:
+                        m = 10
+                    else:
+                        m = 50 * int(math.pow(2, (counter - 1)))
+                else:
+                    m = 100  # number of data points *per class*
+                if counter2 == 1:
+                    d = int(math.pow(2, counter))
+                else:
+                    d = 2  # dimension
+                m = m + 1000
+                c0 = np.ones([1, d])  # class 0 center
+                c1 = -np.ones([1, d])  # class 1 center
+                X0 = np.random.randn(m, d) + c0  # class 0 input
+                X1 = np.random.randn(m, d) + c1  # class 1 input
+                X = np.concatenate((X0, X1), axis=0)
+                X = np.concatenate((np.ones((2 * m, 1)), X), axis=1)  # augmentation
+                y = np.concatenate([np.zeros([m, 1]), np.ones([m, 1])], axis=0)
+                # learning
+                if counter2 == 2:
+                    eta = 0.1 * (10 ^ counter)
+                else:
+                    eta = 0.1  # learning rate
+                max_iter = 1000  # maximum number of iterations
+                tol = 1e-10  # tolerance
+                w_init = np.random.randn(d + 1, 1)
+                w_logit = geb(logisticRegObj, w_init, X, y, eta, max_iter, tol)
+
+                w_average = 0
+                for counter3 in range(len(w_logit)):
+                    w_average = w_logit[counter3]
+                w_average = w_average / len(w_logit)
+
+                test_acc[counter][counter2] = w_average
+    f.close()
 
     print(train_acc)
+    return train_acc, test_acc
+
+def createTable(table, name, f):
+
+    if name == "training loss":
+        f.write("\n")
+        f.write("Table: Different training losses for different models\n")
+        f.write("   Model     | L_2 loss  | L_2 loss  | L_inf loss\n")
+        f.write("  L_2 Model  |" + str(table[0][0]) + " | " + str(table[0][1]) + " | " + str(table[0][2]) + "\n")
+        f.write("  L_1 Model  |" + str(table[1][0]) + " | " + str(table[1][1]) + " | " + str(table[1][2]) + "\n")
+        f.write(" L_inf Model |" + str(table[2][0]) + " | " + str(table[2][1]) + " | " + str(table[2][2]) + "\n")
+        f.write("\n")
+
+    if name == "test loss":
+        f.write("\n")
+        f.write("Table: Different test losses for different models\n")
+        f.write("   Model     | L_2 loss  | L_2 loss  | L_inf loss\n")
+        f.write("  L_2 Model  |" + str(table[0][0]) + " | " + str(table[0][1]) + " | " + str(table[0][2]) + "\n")
+        f.write("  L_1 Model  |" + str(table[1][0]) + " | " + str(table[1][1]) + " | " + str(table[1][2]) + "\n")
+        f.write(" L_inf Model |" + str(table[2][0]) + " | " + str(table[2][1]) + " | " + str(table[2][2]) + "\n")
+        f.write("\n")
+
+    if name == "training accuracy":
+        f.write("\n")
+        f.write("Table: Training accuracies with different hyper-parameters\n")
+        f.write(" n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy\n")
+        f.write(" 10  " + str(table[0][0]) + " | 1 " + str(table[0][1]) + " | 0.001 " + str(table[0][2]) + "\n")
+        f.write(" 50  " + str(table[1][0]) + " | 2 " + str(table[1][1]) + " | 0.01  " + str(table[1][2]) + "\n")
+        f.write(" 100 " + str(table[2][0]) + " | 3 " + str(table[2][1]) + " | 0.1   " + str(table[2][2]) + "\n")
+        f.write(" 200 " + str(table[3][0]) + " | 4 " + str(table[3][1]) + " | 1.0   " + str(table[3][2]) + "\n")
+        f.write("\n")
+
+    if name == "test accuracy":
+        f.write("\n")
+        f.write("Table: Training accuracies with different hyper-parameters\n")
+        f.write(" n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy\n")
+        f.write(" 10   " + str(table[0][0]) + " | 1 " + str(table[0][1]) + " | 0.001 " + str(table[0][2]) + "\n")
+        f.write(" 50   " + str(table[1][0]) + " | 2 " + str(table[1][1]) + " | 0.01  " + str(table[1][2]) + "\n")
+        f.write(" 100  " + str(table[2][0]) + " | 3 " + str(table[2][1]) + " | 0.1   " + str(table[2][2]) + "\n")
+        f.write(" 200  " + str(table[3][0]) + " | 4 " + str(table[3][1]) + " | 1.0   " + str(table[3][2]) + "\n")
+        f.write(" 1000 " + str(table[3][0]) + " | 4 " + str(table[3][1]) + " | 1.0   " + str(table[3][2]) + "\n")
+        f.write("\n")
 
 #synRegExperiments()
-
-#obj_func, grad = linearRegL20bj(w, X, y)
-
-#obj_func, grad = logisticRegObj(w, X, y)
-
 synClsExperiments()
 
 def loadData(dataset_folder, dataset_name):
