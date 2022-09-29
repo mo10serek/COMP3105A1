@@ -13,18 +13,6 @@ w = np.array([[3], [4]])
 X = np.array([[4, 1], [3, 3], [7, 8]])
 y = np.array([[6], [13], [23]])
 
-def L2Norm(vector):
-
-    sum = 0
-    print(vector)
-    print(len(vector))
-    for counter in range(len(vector)):
-        try:
-            sum = sum + math.pow(vector[counter], 2)
-        except OverflowError:
-            sum = sum + float('inf')
-    return sum
-
 def squaredLoss(y_hats, y_actual, n):
     a = y_hats - y_actual
     sum = 0
@@ -46,7 +34,7 @@ def absoluteLoss(y_hats, y_actual, n):
     a = y_hats - y_actual
     sum = 0
     for counter in range(len(a)):
-        sum = sum + math.abs(a[counter])
+        sum = sum + np.abs(a[counter])
     sum = sum/n
     return sum
 
@@ -91,7 +79,7 @@ def infinityLoss(y_hats, y_actual, n):
     a = y_hats - y_actual
     sum = 0
     for counter in range(len(a)):
-        sum = sum + math.abs(a[counter])
+        sum = sum + np.abs(a[counter])
     return sum
 
 def minimizeLinf(X, y):
@@ -177,15 +165,23 @@ def synRegExperiments():
         l1w = minimizeL1(X, y)
         linfw = minimizeLinf(X, y)
 
+        print(l2w)
+        print(l1w)
+        print(linfw)
+
         l2modelOnL2Loss = squaredLoss(np.matmul(X, l2w), y, n)
         l2modelOnL1Loss = squaredLoss(np.matmul(X, l1w), y, n)
         l2modelOnLInfLoss = squaredLoss(np.matmul(X, linfw), y, n)
-        l1modelOnL2Loss = squaredLoss(np.matmul(X, l2w), y, n)
-        l1modelOnL1Loss = squaredLoss(np.matmul(X, l1w), y, n)
-        l1modelOnLInfLoss = squaredLoss(np.matmul(X, linfw), y, n)
-        lInfModelOnL2Loss = squaredLoss(np.matmul(X, l2w), y, n)
-        lInfModelOnL1Loss = squaredLoss(np.matmul(X, l1w), y, n)
-        lInfModelOnLInfLoss = squaredLoss(np.matmul(X, linfw), y, n)
+        l1modelOnL2Loss = absoluteLoss(np.matmul(X, l2w), y, n)
+        l1modelOnL1Loss = absoluteLoss(np.matmul(X, l1w), y, n)
+        l1modelOnLInfLoss = absoluteLoss(np.matmul(X, linfw), y, n)
+        lInfModelOnL2Loss = infinityLoss(np.matmul(X, l2w), y, n)
+        lInfModelOnL1Loss = infinityLoss(np.matmul(X, l1w), y, n)
+        lInfModelOnLInfLoss = infinityLoss(np.matmul(X, linfw), y, n)
+
+        print(l2modelOnL2Loss)
+        print(l2modelOnL1Loss)
+        print(l2modelOnLInfLoss)
 
         testLoss = np.array([[l2modelOnL2Loss, l2modelOnL1Loss, l2modelOnLInfLoss],
                             [l1modelOnL2Loss, l1modelOnL1Loss, l1modelOnLInfLoss],
@@ -216,12 +212,12 @@ def linearRegL20bj(w, X, y):
 
     return obj_val, grad
 
-def geb(obj_func, w_init, X, y, eta, max_iter, tol):
+def gb(obj_func, w_init, X, y, eta, max_iter, tol):
     w = w_init
 
     for counter in range(max_iter):
         obj_val, grad = obj_func(w, X, y)
-        if (L2Norm(grad) < tol):
+        if (np.linalg.norm(grad) < tol):
             break
         w = eta * grad
     return w
@@ -230,10 +226,10 @@ def logisticRegObj(w, X, y):
     n = len(X[0])
 
     Xw = np.matmul(X, w)
-
+    print(Xw)
     leftPart = y * np.logaddexp(0, -Xw)
 
-    rightPart = (1 - y) * (0.4342944819 * Xw + np.logaddexp(0, -Xw))
+    rightPart = (1 - y) * (Xw - np.logaddexp(0, -Xw))
 
     obj_value = (leftPart + rightPart)/n
 
@@ -281,7 +277,7 @@ def synClsExperiments():
                 max_iter = 1000  # maximum number of iterations
                 tol = 1e-10  # tolerance
                 w_init = np.random.randn(d + 1, 1)
-                w_logit = geb(logisticRegObj, w_init, X, y, eta, max_iter, tol)
+                w_logit = gb(logisticRegObj, w_init, X, y, eta, max_iter, tol)
 
                 w_average = 0
                 for counter3 in range(len(w_logit)):
@@ -320,7 +316,7 @@ def synClsExperiments():
                 max_iter = 1000  # maximum number of iterations
                 tol = 1e-10  # tolerance
                 w_init = np.random.randn(d + 1, 1)
-                w_logit = geb(logisticRegObj, w_init, X, y, eta, max_iter, tol)
+                w_logit = gb(logisticRegObj, w_init, X, y, eta, max_iter, tol)
 
                 w_average = 0
                 for counter3 in range(len(w_logit)):
@@ -328,9 +324,11 @@ def synClsExperiments():
                 w_average = w_average / len(w_logit)
 
                 test_acc[counter][counter2] = w_average
+
+        print(train_acc)
+
     f.close()
 
-    print(train_acc)
     return train_acc, test_acc
 
 def realExperiments(dataset_folder, dataset_name):
@@ -367,7 +365,6 @@ def createTable(table, name, f):
         f.write("  L_2 Model  |" + str(table[0][0]) + " | " + str(table[0][1]) + " | " + str(table[0][2]) + "\n")
         f.write("  L_1 Model  |" + str(table[1][0]) + " | " + str(table[1][1]) + " | " + str(table[1][2]) + "\n")
         f.write(" L_inf Model |" + str(table[2][0]) + " | " + str(table[2][1]) + " | " + str(table[2][2]) + "\n")
-        f.write("\n")
 
     if name == "test loss":
         f.write("\n")
@@ -376,7 +373,6 @@ def createTable(table, name, f):
         f.write("  L_2 Model  |" + str(table[0][0]) + " | " + str(table[0][1]) + " | " + str(table[0][2]) + "\n")
         f.write("  L_1 Model  |" + str(table[1][0]) + " | " + str(table[1][1]) + " | " + str(table[1][2]) + "\n")
         f.write(" L_inf Model |" + str(table[2][0]) + " | " + str(table[2][1]) + " | " + str(table[2][2]) + "\n")
-        f.write("\n")
 
     if name == "training accuracy":
         f.write("\n")
@@ -386,7 +382,6 @@ def createTable(table, name, f):
         f.write(" 50  " + str(table[1][0]) + " | 2 " + str(table[1][1]) + " | 0.01  " + str(table[1][2]) + "\n")
         f.write(" 100 " + str(table[2][0]) + " | 3 " + str(table[2][1]) + " | 0.1   " + str(table[2][2]) + "\n")
         f.write(" 200 " + str(table[3][0]) + " | 4 " + str(table[3][1]) + " | 1.0   " + str(table[3][2]) + "\n")
-        f.write("\n")
 
     if name == "test accuracy":
         f.write("\n")
@@ -397,7 +392,6 @@ def createTable(table, name, f):
         f.write(" 100  " + str(table[2][0]) + " | 3 " + str(table[2][1]) + " | 0.1   " + str(table[2][2]) + "\n")
         f.write(" 200  " + str(table[3][0]) + " | 4 " + str(table[3][1]) + " | 1.0   " + str(table[3][2]) + "\n")
         f.write(" 1000 " + str(table[3][0]) + " | 4 " + str(table[3][1]) + " | 1.0   " + str(table[3][2]) + "\n")
-        f.write("\n")
 
 #synRegExperiments()
 #synClsExperiments()
