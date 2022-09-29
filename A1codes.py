@@ -1,3 +1,4 @@
+from ast import Delete
 import cvxopt
 import pandas as pd
 import numpy as np
@@ -33,7 +34,8 @@ def squaredLoss(y_hats, y_actual, n):
     return sum
 
 def minimizeL2(X, y):
-    #print("Starting L2")
+    print(X.shape)
+    #print(y)
     XT = X.T
 
     w = np.matmul(np.linalg.matrix_power(np.matmul(XT,X),-1),np.matmul(XT,y))
@@ -331,6 +333,31 @@ def synClsExperiments():
     print(train_acc)
     return train_acc, test_acc
 
+def realExperiments(dataset_folder, dataset_name):
+    #f = open("trainingData.txt",'w')
+    X,y = loadData(dataset_folder,dataset_name)
+
+    #takes half of the data set at random points, keeps rows connected.
+    testPoints = np.empty(X.shape)
+    testAnswers = np.empty(y.shape)
+    split = math.ceil(X.shape[0]/2)
+    for i in range(split):
+        ind = np.random.randint(((split*2)-1)-i)
+        testPoints = np.append(testPoints,X[ind])
+        X = np.delete(X,ind)
+        testAnswers = np.append(testAnswers,y[ind])
+        y = np.delete(y,ind)
+
+    #train l1, l2, linf, and logisticRegObj using X and y
+    l2w = minimizeL2(X,y)
+    l1w = minimizeL1(X,y)
+    linfw = minimizeLinf(X,y)
+
+    #test l1,l2,linf and a log on testPoints and testAnswers
+
+
+    return
+
 def createTable(table, name, f):
 
     if name == "training loss":
@@ -373,7 +400,7 @@ def createTable(table, name, f):
         f.write("\n")
 
 #synRegExperiments()
-synClsExperiments()
+#synClsExperiments()
 
 def loadData(dataset_folder, dataset_name):
     #auto-mpg remove origin and car name columns, and any rows with missing data, mpg is y, rest is X
@@ -400,7 +427,7 @@ def loadData(dataset_folder, dataset_name):
     elif(dataset_name == "parkinsons.data"):
         data = pd.read_csv(dataset_folder,sep=",")
         y = data["status"]
-        X = data.drop(columns="status")
+        X = data.drop(columns=["name","status"])
         print("\n\n")
         X = X.to_numpy()
         y = y.to_numpy()
@@ -424,9 +451,4 @@ def loadData(dataset_folder, dataset_name):
 
 
 
-def realExperiments(dataset_folder,dataset_name):
-
-    return
-
-
-loadData("C:/Users/Kubaz/Downloads/parkinsons.data", "parkinsons.data")
+realExperiments("C:/Machine Learning/A1/COMP3105A1/auto-mpg.data", "auto-mpg.data")
