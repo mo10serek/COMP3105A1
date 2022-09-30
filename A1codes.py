@@ -496,5 +496,5 @@ def loadData(dataset_folder, dataset_name):
 
 #realExperiments("C:/Machine Learning/A1/COMP3105A1/sonar.all-data", "sonar.all-data")
 
-#synRegExperiments()
+synRegExperiments()
 #synClsExperiments()
