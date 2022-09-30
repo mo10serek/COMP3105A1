@@ -334,17 +334,23 @@ def synClsExperiments():
 def realExperiments(dataset_folder, dataset_name):
     #f = open("trainingData.txt",'w')
     X,y = loadData(dataset_folder,dataset_name)
-
+    y = y.reshape(-1,1)
     #takes half of the data set at random points, keeps rows connected.
-    testPoints = np.empty(X.shape)
-    testAnswers = np.empty(y.shape)
+    testPoints = np.empty((0,X.shape[1]))
+    testAnswers = np.empty(0)
+    testAnswers = testAnswers.reshape(-1,1)
+    print("experiment shape")
+    dim = X.shape
+    print(y.shape)
+    print(testAnswers.shape)
+    
     split = math.ceil(X.shape[0]/2)
     for i in range(split):
         ind = np.random.randint(((split*2)-1)-i)
-        testPoints = np.append(testPoints,X[ind])
-        X = np.delete(X,ind)
-        testAnswers = np.append(testAnswers,y[ind])
-        y = np.delete(y,ind)
+        testPoints = np.vstack([testPoints,X[ind]])
+        X = np.delete(X,ind,0)
+        testAnswers = np.vstack([testAnswers,y[ind]])
+        y = np.delete(y,ind,0)
 
     #train l1, l2, linf, and logisticRegObj using X and y
     l2w = minimizeL2(X,y)
@@ -413,10 +419,12 @@ def loadData(dataset_folder, dataset_name):
         y = data["mpg"]
         X = data.drop(columns=["mpg"])
         X = X[X.horsepower != "?"]
+        X = X.astype(float)
         X = X.to_numpy()
         y = y.to_numpy()
-        print(y)
-        print(X)
+        y = y.reshape((y.shape[0],1))
+        print(y.shape)
+        print(X.shape)
         return X,y
     elif(dataset_name == "parkinsons.data"):
         data = pd.read_csv(dataset_folder,sep=",")
@@ -445,4 +453,4 @@ def loadData(dataset_folder, dataset_name):
 
 
 
-realExperiments("C:/Machine Learning/A1/COMP3105A1/auto-mpg.data", "auto-mpg.data")
+realExperiments("C:/Machine Learning/A1/COMP3105A1/sonar.all-data", "sonar.all-data")
