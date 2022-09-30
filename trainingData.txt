@@ -1,1200 +1,1400 @@
 
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.02358475530592492 | 0.025750515311796708 | 0.030301941512768594
-  L_1 Model  |0.02358475530592492 | 0.025750515311796708 | 0.030301941512768594
- L_inf Model |0.02358475530592492 | 0.025750515311796708 | 0.030301941512768594
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.021267244823886165 | 0.021311167352168762 | 0.027120704111976993
-  L_1 Model  |[0.16233137] | [0.162103] | [0.18551183]
- L_inf Model |[162.33136956] | [162.10300254] | [185.51183055]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.023473924488269574 | 0.026277018107576773 | 0.036770535475938254
-  L_1 Model  |0.023473924488269574 | 0.026277018107576773 | 0.036770535475938254
- L_inf Model |0.023473924488269574 | 0.026277018107576773 | 0.036770535475938254
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019297732017014492 | 0.019362008936822203 | 0.02105747542083794
-  L_1 Model  |[0.15580516] | [0.15557453] | [0.1618806]
- L_inf Model |[155.80515861] | [155.57452616] | [161.88059785]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.015850968621650533 | 0.019924708693840627 | 0.02249635119864714
-  L_1 Model  |0.015850968621650533 | 0.019924708693840627 | 0.02249635119864714
- L_inf Model |0.015850968621650533 | 0.019924708693840627 | 0.02249635119864714
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.018912306361771533 | 0.01900320094065926 | 0.01996248868429303
-  L_1 Model  |[0.15451479] | [0.15418498] | [0.1598953]
- L_inf Model |[154.51478757] | [154.18498053] | [159.89529669]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019683482685369735 | 0.021931208401059842 | 0.032303780161243426
-  L_1 Model  |0.019683482685369735 | 0.021931208401059842 | 0.032303780161243426
- L_inf Model |0.019683482685369735 | 0.021931208401059842 | 0.032303780161243426
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01921075358564927 | 0.019231881134929046 | 0.02207680781999362
-  L_1 Model  |[0.15673363] | [0.15665564] | [0.16880861]
- L_inf Model |[156.73362815] | [156.65564005] | [168.80860603]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.005476677372346631 | 0.0063115861371686125 | 0.006452195901900617
-  L_1 Model  |0.005476677372346631 | 0.0063115861371686125 | 0.006452195901900617
- L_inf Model |0.005476677372346631 | 0.0063115861371686125 | 0.006452195901900617
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.018026393645280907 | 0.01811701458308213 | 0.02136809834994453
-  L_1 Model  |[0.14982688] | [0.14935488] | [0.16571116]
- L_inf Model |[149.82688405] | [149.35488441] | [165.71115979]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.017181511262047554 | 0.02014721859911145 | 0.02346318129155362
-  L_1 Model  |0.017181511262047554 | 0.02014721859911145 | 0.02346318129155362
- L_inf Model |0.017181511262047554 | 0.02014721859911145 | 0.02346318129155362
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019301224175249213 | 0.019406958137166027 | 0.02567704897952367
-  L_1 Model  |[0.15505972] | [0.15467178] | [0.18039239]
- L_inf Model |[155.05972009] | [154.67177846] | [180.39238577]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.018454609074870985 | 0.02440619712214177 | 0.02403998215935831
-  L_1 Model  |0.018454609074870985 | 0.02440619712214177 | 0.02403998215935831
- L_inf Model |0.018454609074870985 | 0.02440619712214177 | 0.02403998215935831
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01924888847296607 | 0.019274591961776704 | 0.024042428024678653
-  L_1 Model  |[0.15547837] | [0.15530751] | [0.17595597]
- L_inf Model |[155.47837345] | [155.30751068] | [175.95596796]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.014031190373854386 | 0.016295575289818738 | 0.01828107557343726
-  L_1 Model  |0.014031190373854386 | 0.016295575289818738 | 0.01828107557343726
- L_inf Model |0.014031190373854386 | 0.016295575289818738 | 0.01828107557343726
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.02097168849667573 | 0.021024041361020665 | 0.022135970046066013
-  L_1 Model  |[0.16211525] | [0.16189873] | [0.16604545]
- L_inf Model |[162.11525275] | [161.89873] | [166.04544619]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.012333395538761721 | 0.013962062278431645 | 0.016617978143654087
-  L_1 Model  |0.012333395538761721 | 0.013962062278431645 | 0.016617978143654087
- L_inf Model |0.012333395538761721 | 0.013962062278431645 | 0.016617978143654087
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.021388334753956857 | 0.02144034213668316 | 0.023520450419652696
-  L_1 Model  |[0.16328186] | [0.16318875] | [0.17335858]
- L_inf Model |[163.28185708] | [163.18875344] | [173.35857917]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.016661510146648562 | 0.01777689134795033 | 0.02288012687223837
-  L_1 Model  |0.016661510146648562 | 0.01777689134795033 | 0.02288012687223837
- L_inf Model |0.016661510146648562 | 0.01777689134795033 | 0.02288012687223837
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019055032561135398 | 0.019096089095285228 | 0.023009984421339776
-  L_1 Model  |[0.15686981] | [0.1567203] | [0.17238669]
- L_inf Model |[156.86980993] | [156.72029728] | [172.38668925]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.012339518207661418 | 0.01440913515759182 | 0.015370731912972502
-  L_1 Model  |0.012339518207661418 | 0.01440913515759182 | 0.015370731912972502
- L_inf Model |0.012339518207661418 | 0.01440913515759182 | 0.015370731912972502
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.018364449018868356 | 0.01842698888053053 | 0.021899078553431327
-  L_1 Model  |[0.15460217] | [0.15434977] | [0.16848648]
- L_inf Model |[154.60216668] | [154.34977465] | [168.48647728]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.020184484369021916 | 0.023273819992796183 | 0.0354894010024495
-  L_1 Model  |0.020184484369021916 | 0.023273819992796183 | 0.0354894010024495
- L_inf Model |0.020184484369021916 | 0.023273819992796183 | 0.0354894010024495
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.02025157306982016 | 0.020304914840760347 | 0.024461158315353008
-  L_1 Model  |[0.15764864] | [0.15738217] | [0.17486182]
- L_inf Model |[157.64864138] | [157.38217038] | [174.86182077]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.012207995620845275 | 0.013486525076238343 | 0.0179391803197122
-  L_1 Model  |0.012207995620845275 | 0.013486525076238343 | 0.0179391803197122
- L_inf Model |0.012207995620845275 | 0.013486525076238343 | 0.0179391803197122
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019391555511006683 | 0.019466847498333186 | 0.02056216079303071
-  L_1 Model  |[0.15741333] | [0.1571677] | [0.16304435]
- L_inf Model |[157.41333135] | [157.16769554] | [163.04434752]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.017572355801654452 | 0.019884593851512474 | 0.024159203355214976
-  L_1 Model  |0.017572355801654452 | 0.019884593851512474 | 0.024159203355214976
- L_inf Model |0.017572355801654452 | 0.019884593851512474 | 0.024159203355214976
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01898121644870165 | 0.01903501286978111 | 0.023188252874203695
-  L_1 Model  |[0.15623358] | [0.15591472] | [0.17387772]
- L_inf Model |[156.23357944] | [155.91471717] | [173.87771793]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019892391650625597 | 0.023027219307919178 | 0.02540545720762126
-  L_1 Model  |0.019892391650625597 | 0.023027219307919178 | 0.02540545720762126
- L_inf Model |0.019892391650625597 | 0.023027219307919178 | 0.02540545720762126
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019520759566776243 | 0.019542303910071616 | 0.022286894041005433
-  L_1 Model  |[0.15627598] | [0.156171] | [0.16863773]
- L_inf Model |[156.27598397] | [156.17099753] | [168.63772704]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01386418054636872 | 0.015905027059717445 | 0.014596845307704796
-  L_1 Model  |0.01386418054636872 | 0.015905027059717445 | 0.014596845307704796
- L_inf Model |0.01386418054636872 | 0.015905027059717445 | 0.014596845307704796
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.020544887738837284 | 0.020626766390206785 | 0.023417308108096446
-  L_1 Model  |[0.16232581] | [0.16193653] | [0.17262917]
- L_inf Model |[162.325806] | [161.93652995] | [172.62916608]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.018155644637292457 | 0.02026746138713525 | 0.02470614666671228
-  L_1 Model  |0.018155644637292457 | 0.02026746138713525 | 0.02470614666671228
- L_inf Model |0.018155644637292457 | 0.02026746138713525 | 0.02470614666671228
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.02013768805085216 | 0.020170797496022283 | 0.0316294256551374
-  L_1 Model  |[0.1597918] | [0.15961033] | [0.20538116]
- L_inf Model |[159.7918005] | [159.61033097] | [205.3811639]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.012362480311786649 | 0.014475119046472707 | 0.016369353643426978
-  L_1 Model  |0.012362480311786649 | 0.014475119046472707 | 0.016369353643426978
- L_inf Model |0.012362480311786649 | 0.014475119046472707 | 0.016369353643426978
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01883428727684617 | 0.018841160927024894 | 0.020450430028090997
-  L_1 Model  |[0.15535282] | [0.15531526] | [0.16226204]
- L_inf Model |[155.35282455] | [155.31526408] | [162.26204161]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.02068813432532775 | 0.02545242857830471 | 0.026494363455734464
-  L_1 Model  |0.02068813432532775 | 0.02545242857830471 | 0.026494363455734464
- L_inf Model |0.02068813432532775 | 0.02545242857830471 | 0.026494363455734464
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01917550719008159 | 0.019200768634669824 | 0.02349811243904911
-  L_1 Model  |[0.15835088] | [0.15821105] | [0.17540729]
- L_inf Model |[158.35088126] | [158.2110474] | [175.40729461]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.02561278141874681 | 0.02823097353525796 | 0.04062845463167241
-  L_1 Model  |0.02561278141874681 | 0.02823097353525796 | 0.04062845463167241
- L_inf Model |0.02561278141874681 | 0.02823097353525796 | 0.04062845463167241
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.021188610548763816 | 0.021203872566835803 | 0.02504249280242836
-  L_1 Model  |[0.16579444] | [0.16570279] | [0.18156164]
- L_inf Model |[165.79444497] | [165.70278832] | [181.56164403]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01779352203169338 | 0.020151832486727698 | 0.020728784628128157
-  L_1 Model  |0.01779352203169338 | 0.020151832486727698 | 0.020728784628128157
- L_inf Model |0.01779352203169338 | 0.020151832486727698 | 0.020728784628128157
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01915131392225824 | 0.019174028296194294 | 0.021649016477538988
-  L_1 Model  |[0.15704035] | [0.1569119] | [0.16711963]
- L_inf Model |[157.04034986] | [156.911898] | [167.11963001]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.018300257649515036 | 0.021289653418348473 | 0.025129366811338094
-  L_1 Model  |0.018300257649515036 | 0.021289653418348473 | 0.025129366811338094
- L_inf Model |0.018300257649515036 | 0.021289653418348473 | 0.025129366811338094
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.02036521271041942 | 0.020438641866960996 | 0.022151006010598516
-  L_1 Model  |[0.15895587] | [0.15864249] | [0.16775586]
- L_inf Model |[158.95587221] | [158.64249391] | [167.75586389]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01943903146043508 | 0.021453400685228347 | 0.023372707718295048
-  L_1 Model  |0.01943903146043508 | 0.021453400685228347 | 0.023372707718295048
- L_inf Model |0.01943903146043508 | 0.021453400685228347 | 0.023372707718295048
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019886824279758603 | 0.019924341621815046 | 0.023879889343739396
-  L_1 Model  |[0.1603509] | [0.16021539] | [0.17446578]
- L_inf Model |[160.35089705] | [160.21538533] | [174.46577808]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01539599406681978 | 0.01665172014979596 | 0.021288892867922588
-  L_1 Model  |0.01539599406681978 | 0.01665172014979596 | 0.021288892867922588
- L_inf Model |0.01539599406681978 | 0.01665172014979596 | 0.021288892867922588
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.02055231312268929 | 0.02063415745278923 | 0.03043659651486123
-  L_1 Model  |[0.16036573] | [0.16009434] | [0.19790084]
- L_inf Model |[160.36572885] | [160.09433657] | [197.90084435]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.021658792871444114 | 0.024295200367132484 | 0.031825546508969065
-  L_1 Model  |0.021658792871444114 | 0.024295200367132484 | 0.031825546508969065
- L_inf Model |0.021658792871444114 | 0.024295200367132484 | 0.031825546508969065
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.018467524421582428 | 0.018554414109622254 | 0.019275785116986296
-  L_1 Model  |[0.15443274] | [0.15390967] | [0.15788631]
- L_inf Model |[154.43273927] | [153.90967417] | [157.88631316]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.024303544938947683 | 0.02829169607345271 | 0.033447030092788266
-  L_1 Model  |0.024303544938947683 | 0.02829169607345271 | 0.033447030092788266
- L_inf Model |0.024303544938947683 | 0.02829169607345271 | 0.033447030092788266
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019396124382535587 | 0.019500909554430765 | 0.021915119423676722
-  L_1 Model  |[0.15711861] | [0.15652938] | [0.16854316]
- L_inf Model |[157.11860936] | [156.52938112] | [168.54315815]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01310589415403911 | 0.015228159713629102 | 0.014263382235815858
-  L_1 Model  |0.01310589415403911 | 0.015228159713629102 | 0.014263382235815858
- L_inf Model |0.01310589415403911 | 0.015228159713629102 | 0.014263382235815858
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019087442858861495 | 0.019122923479114415 | 0.020837531837558654
-  L_1 Model  |[0.15711496] | [0.15702495] | [0.16424184]
- L_inf Model |[157.11495821] | [157.02495442] | [164.24184079]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.012989927519598127 | 0.014294159680702594 | 0.016467360924921678
-  L_1 Model  |0.012989927519598127 | 0.014294159680702594 | 0.016467360924921678
- L_inf Model |0.012989927519598127 | 0.014294159680702594 | 0.016467360924921678
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.02076074809975459 | 0.020815043890821148 | 0.027396925907638498
-  L_1 Model  |[0.163842] | [0.16366052] | [0.18665284]
- L_inf Model |[163.84200101] | [163.66052078] | [186.65283568]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.018051696518031023 | 0.018743877227512043 | 0.026356154082076855
-  L_1 Model  |0.018051696518031023 | 0.018743877227512043 | 0.026356154082076855
- L_inf Model |0.018051696518031023 | 0.018743877227512043 | 0.026356154082076855
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.018518099504258236 | 0.01860199250320309 | 0.021946552087542547
-  L_1 Model  |[0.15206262] | [0.15173705] | [0.16689583]
- L_inf Model |[152.06262486] | [151.73705421] | [166.89583286]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019847542361823733 | 0.021563013867313217 | 0.028670551799446498
-  L_1 Model  |0.019847542361823733 | 0.021563013867313217 | 0.028670551799446498
- L_inf Model |0.019847542361823733 | 0.021563013867313217 | 0.028670551799446498
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01922204407297356 | 0.01929495248450291 | 0.024313596222293173
-  L_1 Model  |[0.15708867] | [0.15684122] | [0.1762543]
- L_inf Model |[157.08866663] | [156.84121673] | [176.25430371]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.025193776294192678 | 0.02937293379051991 | 0.030155630727111183
-  L_1 Model  |0.025193776294192678 | 0.02937293379051991 | 0.030155630727111183
- L_inf Model |0.025193776294192678 | 0.02937293379051991 | 0.030155630727111183
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019687253991127317 | 0.019762453671173963 | 0.02310794256232748
-  L_1 Model  |[0.16005663] | [0.15971085] | [0.17166148]
- L_inf Model |[160.05663161] | [159.71085275] | [171.66148387]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.014477935499980572 | 0.016268996446218195 | 0.021509033864025043
-  L_1 Model  |0.014477935499980572 | 0.016268996446218195 | 0.021509033864025043
- L_inf Model |0.014477935499980572 | 0.016268996446218195 | 0.021509033864025043
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019621175627568366 | 0.019655792679705814 | 0.02179020878099326
-  L_1 Model  |[0.15841519] | [0.15822579] | [0.1664471]
- L_inf Model |[158.41519457] | [158.2257934] | [166.44709542]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.012774974526203572 | 0.014922618690249058 | 0.01783323975456622
-  L_1 Model  |0.012774974526203572 | 0.014922618690249058 | 0.01783323975456622
- L_inf Model |0.012774974526203572 | 0.014922618690249058 | 0.01783323975456622
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.020720264717899763 | 0.020745844484912596 | 0.022765176911183432
-  L_1 Model  |[0.16341493] | [0.16331217] | [0.17111689]
- L_inf Model |[163.41493418] | [163.31217441] | [171.11689378]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.012554133350621869 | 0.014092267467524646 | 0.017178835466095613
-  L_1 Model  |0.012554133350621869 | 0.014092267467524646 | 0.017178835466095613
- L_inf Model |0.012554133350621869 | 0.014092267467524646 | 0.017178835466095613
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01924157930427183 | 0.019379740357458496 | 0.02278321645438336
-  L_1 Model  |[0.15688586] | [0.15649644] | [0.1715725]
- L_inf Model |[156.8858642] | [156.49644171] | [171.57249957]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.011314648163981441 | 0.01368145650084499 | 0.012933174712752788
-  L_1 Model  |0.011314648163981441 | 0.01368145650084499 | 0.012933174712752788
- L_inf Model |0.011314648163981441 | 0.01368145650084499 | 0.012933174712752788
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019596901713663063 | 0.01967392810412166 | 0.02599681639920587
-  L_1 Model  |[0.15721395] | [0.15682557] | [0.18019597]
- L_inf Model |[157.21395193] | [156.82556802] | [180.19596757]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.016630091409341536 | 0.017326829725874942 | 0.026286782751159674
-  L_1 Model  |0.016630091409341536 | 0.017326829725874942 | 0.026286782751159674
- L_inf Model |0.016630091409341536 | 0.017326829725874942 | 0.026286782751159674
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01917957627490943 | 0.019211539449094647 | 0.0219458185826906
-  L_1 Model  |[0.15421424] | [0.15406242] | [0.16437972]
- L_inf Model |[154.21424399] | [154.06242329] | [164.37971679]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.023927145984128356 | 0.02884573004250339 | 0.030915564359012812
-  L_1 Model  |0.023927145984128356 | 0.02884573004250339 | 0.030915564359012812
- L_inf Model |0.023927145984128356 | 0.02884573004250339 | 0.030915564359012812
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019946631326824997 | 0.019980036870111795 | 0.02233976752490223
-  L_1 Model  |[0.15752515] | [0.15736399] | [0.16892728]
- L_inf Model |[157.52514748] | [157.3639919] | [168.92727695]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.012542509935481639 | 0.013083626348762914 | 0.014139870961483987
-  L_1 Model  |0.012542509935481639 | 0.013083626348762914 | 0.014139870961483987
- L_inf Model |0.012542509935481639 | 0.013083626348762914 | 0.014139870961483987
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.021886023049270776 | 0.02197764678812922 | 0.025369941141500558
-  L_1 Model  |[0.16792597] | [0.16754409] | [0.18081647]
- L_inf Model |[167.92597495] | [167.54409216] | [180.81647457]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.013618882819182353 | 0.01463361942902668 | 0.01635982711117907
-  L_1 Model  |0.013618882819182353 | 0.01463361942902668 | 0.01635982711117907
- L_inf Model |0.013618882819182353 | 0.01463361942902668 | 0.01635982711117907
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.022069429888935628 | 0.022169897506262484 | 0.03221030516022203
-  L_1 Model  |[0.16756671] | [0.16706046] | [0.20472227]
- L_inf Model |[167.56670668] | [167.0604607] | [204.72226993]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.011089133646659293 | 0.012698966181635987 | 0.013250089579902648
-  L_1 Model  |0.011089133646659293 | 0.012698966181635987 | 0.013250089579902648
- L_inf Model |0.011089133646659293 | 0.012698966181635987 | 0.013250089579902648
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019504168220926807 | 0.019600615332004703 | 0.022074542870153185
-  L_1 Model  |[0.15893881] | [0.15861529] | [0.16805271]
- L_inf Model |[158.93881088] | [158.61529157] | [168.05270726]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.006653919370407821 | 0.006702682600161254 | 0.00847129612681034
-  L_1 Model  |0.006653919370407821 | 0.006702682600161254 | 0.00847129612681034
- L_inf Model |0.006653919370407821 | 0.006702682600161254 | 0.00847129612681034
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019606404355089035 | 0.019692319611890555 | 0.022342978102839577
-  L_1 Model  |[0.15800596] | [0.15777427] | [0.1691047]
- L_inf Model |[158.00596246] | [157.77426992] | [169.10470416]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.013925942322963531 | 0.014692025495559709 | 0.023953437762004856
-  L_1 Model  |0.013925942322963531 | 0.014692025495559709 | 0.023953437762004856
- L_inf Model |0.013925942322963531 | 0.014692025495559709 | 0.023953437762004856
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019779584100117455 | 0.01986277439607542 | 0.02846948213334492
-  L_1 Model  |[0.15886858] | [0.15862395] | [0.19112793]
- L_inf Model |[158.86858483] | [158.62395235] | [191.12792946]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01167812198195846 | 0.012132833272023 | 0.014479754584353542
-  L_1 Model  |0.01167812198195846 | 0.012132833272023 | 0.014479754584353542
- L_inf Model |0.01167812198195846 | 0.012132833272023 | 0.014479754584353542
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.020075276748001476 | 0.020116792529079768 | 0.024148760095394812
-  L_1 Model  |[0.16094444] | [0.16076732] | [0.17545522]
- L_inf Model |[160.94443629] | [160.76731842] | [175.45522431]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01369788757463141 | 0.01706014892365891 | 0.023632896606661173
-  L_1 Model  |0.01369788757463141 | 0.01706014892365891 | 0.023632896606661173
- L_inf Model |0.01369788757463141 | 0.01706014892365891 | 0.023632896606661173
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.021590534078957047 | 0.02165096354600777 | 0.02521636796407245
-  L_1 Model  |[0.16406435] | [0.16381365] | [0.17871687]
- L_inf Model |[164.06434661] | [163.81365426] | [178.71686996]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.015110002923157425 | 0.01626632909812638 | 0.01938209632558142
-  L_1 Model  |0.015110002923157425 | 0.01626632909812638 | 0.01938209632558142
- L_inf Model |0.015110002923157425 | 0.01626632909812638 | 0.01938209632558142
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.02040318442578095 | 0.020426463553636844 | 0.025509362464568
-  L_1 Model  |[0.15896201] | [0.15883462] | [0.18136159]
- L_inf Model |[158.96201029] | [158.83462184] | [181.36158888]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.015790032972832005 | 0.018482151352571797 | 0.01698453223855707
-  L_1 Model  |0.015790032972832005 | 0.018482151352571797 | 0.01698453223855707
- L_inf Model |0.015790032972832005 | 0.018482151352571797 | 0.01698453223855707
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.018981390049834884 | 0.019016420784403593 | 0.024334485186164972
-  L_1 Model  |[0.15433319] | [0.15423569] | [0.1749961]
- L_inf Model |[154.3331887] | [154.23569146] | [174.9961049]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01931540268277802 | 0.02186736809371607 | 0.02544219887492421
-  L_1 Model  |0.01931540268277802 | 0.02186736809371607 | 0.02544219887492421
- L_inf Model |0.01931540268277802 | 0.02186736809371607 | 0.02544219887492421
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019527024149609336 | 0.019617546363000244 | 0.021543481918040792
-  L_1 Model  |[0.15883913] | [0.15852299] | [0.1666593]
- L_inf Model |[158.8391291] | [158.52299345] | [166.65930204]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.011555705720155175 | 0.012597329673175313 | 0.013608769808341822
-  L_1 Model  |0.011555705720155175 | 0.012597329673175313 | 0.013608769808341822
- L_inf Model |0.011555705720155175 | 0.012597329673175313 | 0.013608769808341822
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.020017412715577537 | 0.020068811469089384 | 0.022138576762802464
-  L_1 Model  |[0.16036403] | [0.16010011] | [0.16834512]
- L_inf Model |[160.36402893] | [160.10010536] | [168.3451211]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.013635882279329724 | 0.014009190939436283 | 0.018402876317380985
-  L_1 Model  |0.013635882279329724 | 0.014009190939436283 | 0.018402876317380985
- L_inf Model |0.013635882279329724 | 0.014009190939436283 | 0.018402876317380985
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.020887839047878602 | 0.020947296331734387 | 0.023069239782779253
-  L_1 Model  |[0.16328233] | [0.16289521] | [0.17082674]
- L_inf Model |[163.28232909] | [162.89521417] | [170.82673705]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.018752403204556307 | 0.021504456629325572 | 0.0325246600991994
-  L_1 Model  |0.018752403204556307 | 0.021504456629325572 | 0.0325246600991994
- L_inf Model |0.018752403204556307 | 0.021504456629325572 | 0.0325246600991994
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.020125926970698597 | 0.020149949488193417 | 0.022399051531005104
-  L_1 Model  |[0.16125047] | [0.1611349] | [0.17055531]
- L_inf Model |[161.25046613] | [161.13489713] | [170.55530878]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01703879686940481 | 0.01855748610038877 | 0.018603489928805457
-  L_1 Model  |0.01703879686940481 | 0.01855748610038877 | 0.018603489928805457
- L_inf Model |0.01703879686940481 | 0.01855748610038877 | 0.018603489928805457
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.020677692927062664 | 0.020699456777221306 | 0.02292218022961807
-  L_1 Model  |[0.16201393] | [0.16190839] | [0.17042037]
- L_inf Model |[162.01393459] | [161.90839271] | [170.42036512]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.014524981375801427 | 0.015916852451332387 | 0.018442398590469453
-  L_1 Model  |0.014524981375801427 | 0.015916852451332387 | 0.018442398590469453
- L_inf Model |0.014524981375801427 | 0.015916852451332387 | 0.018442398590469453
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.020032109004835937 | 0.02008531091725652 | 0.02297826812501679
-  L_1 Model  |[0.15978186] | [0.1595355] | [0.17136986]
- L_inf Model |[159.78186237] | [159.53550156] | [171.36986262]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.010235979487677094 | 0.01160733908732637 | 0.015383194561645568
-  L_1 Model  |0.010235979487677094 | 0.01160733908732637 | 0.015383194561645568
- L_inf Model |0.010235979487677094 | 0.01160733908732637 | 0.015383194561645568
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01825426509424625 | 0.018390954324157736 | 0.020322866838443285
-  L_1 Model  |[0.15099389] | [0.15057911] | [0.16019805]
- L_inf Model |[150.99389281] | [150.57911062] | [160.1980539]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.020098920591834765 | 0.022222297593347838 | 0.022363268293540812
-  L_1 Model  |0.020098920591834765 | 0.022222297593347838 | 0.022363268293540812
- L_inf Model |0.020098920591834765 | 0.022222297593347838 | 0.022363268293540812
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.020098688538277523 | 0.02025705993268749 | 0.023184539196572842
-  L_1 Model  |[0.16172091] | [0.16114577] | [0.17228176]
- L_inf Model |[161.72090726] | [161.1457689] | [172.28176434]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01026127408909669 | 0.010721247275810725 | 0.01318133295157815
-  L_1 Model  |0.01026127408909669 | 0.010721247275810725 | 0.01318133295157815
- L_inf Model |0.01026127408909669 | 0.010721247275810725 | 0.01318133295157815
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.021702401737059857 | 0.021913053387187343 | 0.02404782457376598
-  L_1 Model  |[0.1677944] | [0.16718938] | [0.17803353]
- L_inf Model |[167.794404] | [167.18938155] | [178.03352747]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019655236147720013 | 0.023176616201617976 | 0.027347072381014796
-  L_1 Model  |0.019655236147720013 | 0.023176616201617976 | 0.027347072381014796
- L_inf Model |0.019655236147720013 | 0.023176616201617976 | 0.027347072381014796
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01973488202168603 | 0.019785746093102415 | 0.022250730109780046
-  L_1 Model  |[0.15553391] | [0.15511349] | [0.16682124]
- L_inf Model |[155.53391206] | [155.11349373] | [166.82123767]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.02015948190392076 | 0.022143455184475948 | 0.023892199309358264
-  L_1 Model  |0.02015948190392076 | 0.022143455184475948 | 0.023892199309358264
- L_inf Model |0.02015948190392076 | 0.022143455184475948 | 0.023892199309358264
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.021045888721058836 | 0.021140494946733215 | 0.023043849446218206
-  L_1 Model  |[0.16489453] | [0.16446441] | [0.17227232]
- L_inf Model |[164.89453335] | [164.46441205] | [172.27232133]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.021530054815969243 | 0.023489495762070236 | 0.02804288693220526
-  L_1 Model  |0.021530054815969243 | 0.023489495762070236 | 0.02804288693220526
- L_inf Model |0.021530054815969243 | 0.023489495762070236 | 0.02804288693220526
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019194841514941045 | 0.01925510762561137 | 0.021210882670443083
-  L_1 Model  |[0.15902687] | [0.15874988] | [0.16674203]
- L_inf Model |[159.02686722] | [158.74987804] | [166.7420297]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01557076970551768 | 0.016384240568230513 | 0.021147877289955732
-  L_1 Model  |0.01557076970551768 | 0.016384240568230513 | 0.021147877289955732
- L_inf Model |0.01557076970551768 | 0.016384240568230513 | 0.021147877289955732
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019651295102294665 | 0.019759567241412004 | 0.0216067654461865
-  L_1 Model  |[0.16113567] | [0.16087351] | [0.16886446]
- L_inf Model |[161.13566613] | [160.8735108] | [168.86445891]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.010771864408279215 | 0.011787102775538488 | 0.01824817410412413
-  L_1 Model  |0.010771864408279215 | 0.011787102775538488 | 0.01824817410412413
- L_inf Model |0.010771864408279215 | 0.011787102775538488 | 0.01824817410412413
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019746336905530737 | 0.019785568557345812 | 0.02280339150503212
-  L_1 Model  |[0.15838115] | [0.15819615] | [0.16977853]
- L_inf Model |[158.38114568] | [158.19615113] | [169.7785258]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.012406451613919732 | 0.013353051103844509 | 0.014300651625175569
-  L_1 Model  |0.012406451613919732 | 0.013353051103844509 | 0.014300651625175569
- L_inf Model |0.012406451613919732 | 0.013353051103844509 | 0.014300651625175569
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019910784602114835 | 0.019955473493637195 | 0.022719800036168223
-  L_1 Model  |[0.16119106] | [0.16099878] | [0.17280649]
- L_inf Model |[161.19106303] | [160.99878039] | [172.80648815]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.022132556645941263 | 0.027387334329098453 | 0.028059514595435216
-  L_1 Model  |0.022132556645941263 | 0.027387334329098453 | 0.028059514595435216
- L_inf Model |0.022132556645941263 | 0.027387334329098453 | 0.028059514595435216
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.020469728246772387 | 0.020584648973953137 | 0.023170094724203567
-  L_1 Model  |[0.16221901] | [0.16176085] | [0.17207831]
- L_inf Model |[162.21901247] | [161.76085363] | [172.07831279]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.018970737937542524 | 0.020621273259221678 | 0.02513047551161041
-  L_1 Model  |0.018970737937542524 | 0.020621273259221678 | 0.02513047551161041
- L_inf Model |0.018970737937542524 | 0.020621273259221678 | 0.02513047551161041
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01944902775456055 | 0.019536709408368512 | 0.02179229381119893
-  L_1 Model  |[0.15905825] | [0.15866814] | [0.16868701]
- L_inf Model |[159.058255] | [158.66813695] | [168.68701461]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.014804662518600738 | 0.017186782060059913 | 0.02372540393304259
-  L_1 Model  |0.014804662518600738 | 0.017186782060059913 | 0.02372540393304259
- L_inf Model |0.014804662518600738 | 0.017186782060059913 | 0.02372540393304259
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01914701070380561 | 0.019291699219553277 | 0.022718994767525605
-  L_1 Model  |[0.1580539] | [0.15743417] | [0.17487273]
- L_inf Model |[158.05390201] | [157.43416662] | [174.87273429]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.013839274094640745 | 0.015127296089018893 | 0.015947143056845844
-  L_1 Model  |0.013839274094640745 | 0.015127296089018893 | 0.015947143056845844
- L_inf Model |0.013839274094640745 | 0.015127296089018893 | 0.015947143056845844
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01826559424302448 | 0.018297265558590178 | 0.021020624583557454
-  L_1 Model  |[0.15254471] | [0.15240007] | [0.1638251]
- L_inf Model |[152.54470847] | [152.40006932] | [163.82509799]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019711731782818334 | 0.021304923847420013 | 0.029775328574166808
-  L_1 Model  |0.019711731782818334 | 0.021304923847420013 | 0.029775328574166808
- L_inf Model |0.019711731782818334 | 0.021304923847420013 | 0.029775328574166808
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.020299598886113032 | 0.020419552047102302 | 0.023224547639070094
-  L_1 Model  |[0.16190267] | [0.16138012] | [0.17463984]
- L_inf Model |[161.90266646] | [161.38011883] | [174.63983754]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.010865124868712658 | 0.011304315474641257 | 0.013979936664913477
-  L_1 Model  |0.010865124868712658 | 0.011304315474641257 | 0.013979936664913477
- L_inf Model |0.010865124868712658 | 0.011304315474641257 | 0.013979936664913477
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.020551572828978976 | 0.020652172565001608 | 0.023616866584081925
-  L_1 Model  |[0.16125792] | [0.16087522] | [0.1742516]
- L_inf Model |[161.25791834] | [160.87522244] | [174.25159968]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01031992269205975 | 0.010815381846110873 | 0.012639917621742483
-  L_1 Model  |0.01031992269205975 | 0.010815381846110873 | 0.012639917621742483
- L_inf Model |0.01031992269205975 | 0.010815381846110873 | 0.012639917621742483
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019419575138613508 | 0.019475839938169284 | 0.022635752574197313
-  L_1 Model  |[0.15629595] | [0.15605794] | [0.17107176]
- L_inf Model |[156.29595327] | [156.05794053] | [171.07175888]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.02234645307393666 | 0.023275130092414227 | 0.02986633260697775
-  L_1 Model  |0.02234645307393666 | 0.023275130092414227 | 0.02986633260697775
- L_inf Model |0.02234645307393666 | 0.023275130092414227 | 0.02986633260697775
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019672662805031445 | 0.019721883044702525 | 0.02113437813494606
-  L_1 Model  |[0.15863439] | [0.15841914] | [0.16460254]
- L_inf Model |[158.63438781] | [158.41914493] | [164.60253607]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.014915488797904221 | 0.018485352831079167 | 0.020543053203441797
-  L_1 Model  |0.014915488797904221 | 0.018485352831079167 | 0.020543053203441797
- L_inf Model |0.014915488797904221 | 0.018485352831079167 | 0.020543053203441797
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01944818410742929 | 0.019515056804163974 | 0.020707478361926497
-  L_1 Model  |[0.15862742] | [0.15842507] | [0.16511445]
- L_inf Model |[158.62742058] | [158.42507358] | [165.11445023]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01572018319554317 | 0.01695952748785795 | 0.019500503862621407
-  L_1 Model  |0.01572018319554317 | 0.01695952748785795 | 0.019500503862621407
- L_inf Model |0.01572018319554317 | 0.01695952748785795 | 0.019500503862621407
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019352953260667778 | 0.019379026139943925 | 0.02030053814868106
-  L_1 Model  |[0.15750603] | [0.15746474] | [0.16124209]
- L_inf Model |[157.5060298] | [157.46474432] | [161.24208581]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.02131642453193574 | 0.024650479624738507 | 0.02518840694482528
-  L_1 Model  |0.02131642453193574 | 0.024650479624738507 | 0.02518840694482528
- L_inf Model |0.02131642453193574 | 0.024650479624738507 | 0.02518840694482528
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019839533942127716 | 0.01986999225556182 | 0.02434075983064605
-  L_1 Model  |[0.16213201] | [0.16197431] | [0.17918223]
- L_inf Model |[162.13200606] | [161.97431176] | [179.18223346]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.012604878471330832 | 0.013481542235182786 | 0.01756835170873918
-  L_1 Model  |0.012604878471330832 | 0.013481542235182786 | 0.01756835170873918
- L_inf Model |0.012604878471330832 | 0.013481542235182786 | 0.01756835170873918
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.018389723499755456 | 0.018427606563005534 | 0.02236946249985023
-  L_1 Model  |[0.15385204] | [0.15369387] | [0.16932764]
- L_inf Model |[153.85203828] | [153.693873] | [169.32763958]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.011746963444370923 | 0.011969563095271096 | 0.016712584631255873
-  L_1 Model  |0.011746963444370923 | 0.011969563095271096 | 0.016712584631255873
- L_inf Model |0.011746963444370923 | 0.011969563095271096 | 0.016712584631255873
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01900398991488465 | 0.01901443009326744 | 0.02017747618986892
-  L_1 Model  |[0.15528568] | [0.15523304] | [0.15936363]
- L_inf Model |[155.28567615] | [155.23304488] | [159.36362607]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.013892653301760465 | 0.014461951165803653 | 0.020518222547672552
-  L_1 Model  |0.013892653301760465 | 0.014461951165803653 | 0.020518222547672552
- L_inf Model |0.013892653301760465 | 0.014461951165803653 | 0.020518222547672552
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.020233349535116373 | 0.020286223849721778 | 0.023404862597538826
-  L_1 Model  |[0.16046618] | [0.16019311] | [0.17388898]
- L_inf Model |[160.46617744] | [160.19310746] | [173.88898062]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.012949065838926384 | 0.015470152288838414 | 0.017666091992615946
-  L_1 Model  |0.012949065838926384 | 0.015470152288838414 | 0.017666091992615946
- L_inf Model |0.012949065838926384 | 0.015470152288838414 | 0.017666091992615946
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.021549904612333522 | 0.021605091524170457 | 0.02479174277934925
-  L_1 Model  |[0.16570339] | [0.16541529] | [0.17964304]
- L_inf Model |[165.7033891] | [165.41529485] | [179.64303651]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01569002661073751 | 0.01646098924697781 | 0.02199774505024284
-  L_1 Model  |0.01569002661073751 | 0.01646098924697781 | 0.02199774505024284
- L_inf Model |0.01569002661073751 | 0.01646098924697781 | 0.02199774505024284
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.02071780887401248 | 0.020764254074669673 | 0.023502095608832537
-  L_1 Model  |[0.16252931] | [0.16228912] | [0.17426222]
- L_inf Model |[162.5293149] | [162.28911541] | [174.2622169]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.018391280729019726 | 0.020556470698007378 | 0.020221753326882877
-  L_1 Model  |0.018391280729019726 | 0.020556470698007378 | 0.020221753326882877
- L_inf Model |0.018391280729019726 | 0.020556470698007378 | 0.020221753326882877
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019568760088923533 | 0.019592439415283904 | 0.02141193117472591
-  L_1 Model  |[0.15770336] | [0.15761778] | [0.16349308]
- L_inf Model |[157.70335933] | [157.61777574] | [163.49307841]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.016291021722966807 | 0.01745315693136313 | 0.018006434252895817
-  L_1 Model  |0.016291021722966807 | 0.01745315693136313 | 0.018006434252895817
- L_inf Model |0.016291021722966807 | 0.01745315693136313 | 0.018006434252895817
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.018537256331595118 | 0.018568103423029236 | 0.022523771921301318
-  L_1 Model  |[0.15573173] | [0.15563911] | [0.17137232]
- L_inf Model |[155.7317347] | [155.63910579] | [171.37231692]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.014131600741428501 | 0.0144077782213938 | 0.020647882790795925
-  L_1 Model  |0.014131600741428501 | 0.0144077782213938 | 0.020647882790795925
- L_inf Model |0.014131600741428501 | 0.0144077782213938 | 0.020647882790795925
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019273386759654714 | 0.019343859742218174 | 0.02245038841170635
-  L_1 Model  |[0.15639222] | [0.15600542] | [0.16919941]
- L_inf Model |[156.39221503] | [156.00542256] | [169.19941481]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.020624605358055482 | 0.023782793526099445 | 0.03470882513241922
-  L_1 Model  |0.020624605358055482 | 0.023782793526099445 | 0.03470882513241922
- L_inf Model |0.020624605358055482 | 0.023782793526099445 | 0.03470882513241922
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019549995299457782 | 0.019592280872670335 | 0.02411718098024181
-  L_1 Model  |[0.15494429] | [0.15472498] | [0.17517666]
- L_inf Model |[154.94429204] | [154.72497634] | [175.17665954]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.026100127980183827 | 0.030233158464691944 | 0.03333339017998777
-  L_1 Model  |0.026100127980183827 | 0.030233158464691944 | 0.03333339017998777
- L_inf Model |0.026100127980183827 | 0.030233158464691944 | 0.03333339017998777
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.0203171355371387 | 0.020354503867944483 | 0.023832643868241115
-  L_1 Model  |[0.16110468] | [0.16091238] | [0.17591602]
- L_inf Model |[161.10468028] | [160.91237932] | [175.91601538]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.013265845881392074 | 0.013904957070769688 | 0.01894441015994691
-  L_1 Model  |0.013265845881392074 | 0.013904957070769688 | 0.01894441015994691
- L_inf Model |0.013265845881392074 | 0.013904957070769688 | 0.01894441015994691
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.018861427751551738 | 0.01895618662166951 | 0.021008523269007012
-  L_1 Model  |[0.15535512] | [0.15500857] | [0.16447255]
- L_inf Model |[155.35511645] | [155.00856964] | [164.47255012]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01640883165580326 | 0.017469655544514892 | 0.01822808412138315
-  L_1 Model  |0.01640883165580326 | 0.017469655544514892 | 0.01822808412138315
- L_inf Model |0.01640883165580326 | 0.017469655544514892 | 0.01822808412138315
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.018962886129776434 | 0.019038644540680105 | 0.020183672694877888
-  L_1 Model  |[0.15484677] | [0.15456869] | [0.16034715]
- L_inf Model |[154.84677085] | [154.56869069] | [160.34715131]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.017498492025337393 | 0.020036631241814703 | 0.021541108726348308
-  L_1 Model  |0.017498492025337393 | 0.020036631241814703 | 0.021541108726348308
- L_inf Model |0.017498492025337393 | 0.020036631241814703 | 0.021541108726348308
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.018779168343039637 | 0.018828372897396608 | 0.02228496410065606
-  L_1 Model  |[0.15420729] | [0.15409812] | [0.16757494]
- L_inf Model |[154.20729018] | [154.0981185] | [167.57493627]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.025169180545353702 | 0.02808579519373749 | 0.03805376838207777
-  L_1 Model  |0.025169180545353702 | 0.02808579519373749 | 0.03805376838207777
- L_inf Model |0.025169180545353702 | 0.02808579519373749 | 0.03805376838207777
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01937119078360288 | 0.019446358503365242 | 0.02636784338027747
-  L_1 Model  |[0.15665569] | [0.15635998] | [0.18146208]
- L_inf Model |[156.65569093] | [156.35997775] | [181.46207836]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.020118560606280058 | 0.02477946113435987 | 0.023401512206619846
-  L_1 Model  |0.020118560606280058 | 0.02477946113435987 | 0.023401512206619846
- L_inf Model |0.020118560606280058 | 0.02477946113435987 | 0.023401512206619846
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019147308147004462 | 0.0192203568288702 | 0.023425957230415805
-  L_1 Model  |[0.15466787] | [0.15432792] | [0.17258795]
- L_inf Model |[154.66787492] | [154.3279204] | [172.5879455]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01229773871227172 | 0.013329850454111584 | 0.019281049520029805
-  L_1 Model  |0.01229773871227172 | 0.013329850454111584 | 0.019281049520029805
- L_inf Model |0.01229773871227172 | 0.013329850454111584 | 0.019281049520029805
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.020449003263423436 | 0.020555658453895606 | 0.023207642702599066
-  L_1 Model  |[0.15976029] | [0.15926667] | [0.16930185]
- L_inf Model |[159.76029489] | [159.26666717] | [169.30184807]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019483191242997553 | 0.02147090379559952 | 0.023745545801862618
-  L_1 Model  |0.019483191242997553 | 0.02147090379559952 | 0.023745545801862618
- L_inf Model |0.019483191242997553 | 0.02147090379559952 | 0.023745545801862618
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.020977920498436522 | 0.021120157845611876 | 0.023961663964412627
-  L_1 Model  |[0.16436555] | [0.16396877] | [0.17682109]
- L_inf Model |[164.36554797] | [163.96876516] | [176.82109371]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.012881547477789215 | 0.013469780468932291 | 0.01975537286165393
-  L_1 Model  |0.012881547477789215 | 0.013469780468932291 | 0.01975537286165393
- L_inf Model |0.012881547477789215 | 0.013469780468932291 | 0.01975537286165393
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019274612207453315 | 0.01929739988736444 | 0.02314568672256921
-  L_1 Model  |[0.15610589] | [0.15601966] | [0.17132964]
- L_inf Model |[156.10588711] | [156.01966333] | [171.32963698]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.015312689578456386 | 0.016802735288297586 | 0.019941653108640576
-  L_1 Model  |0.015312689578456386 | 0.016802735288297586 | 0.019941653108640576
- L_inf Model |0.015312689578456386 | 0.016802735288297586 | 0.019941653108640576
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.020019655242482136 | 0.020060401238210873 | 0.021583969170065675
-  L_1 Model  |[0.15607426] | [0.15596312] | [0.16320317]
- L_inf Model |[156.07426421] | [155.96311712] | [163.20316852]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019988436029822466 | 0.02248668073334277 | 0.03308504490922076
-  L_1 Model  |0.019988436029822466 | 0.02248668073334277 | 0.03308504490922076
- L_inf Model |0.019988436029822466 | 0.02248668073334277 | 0.03308504490922076
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01892053475604855 | 0.018974232744124356 | 0.02368910340844852
-  L_1 Model  |[0.15611094] | [0.15597936] | [0.17521654]
- L_inf Model |[156.11093989] | [155.97935847] | [175.21653749]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.014004493724944016 | 0.01659344070189486 | 0.019406486304507378
-  L_1 Model  |0.014004493724944016 | 0.01659344070189486 | 0.019406486304507378
- L_inf Model |0.014004493724944016 | 0.01659344070189486 | 0.019406486304507378
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.020366893170940804 | 0.020449026282174706 | 0.024027977534899842
-  L_1 Model  |[0.16046095] | [0.16004449] | [0.17353395]
- L_inf Model |[160.46094916] | [160.04449464] | [173.53394849]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.011421367711157296 | 0.011738848775172691 | 0.013183965108749977
-  L_1 Model  |0.011421367711157296 | 0.011738848775172691 | 0.013183965108749977
- L_inf Model |0.011421367711157296 | 0.011738848775172691 | 0.013183965108749977
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019873663141103257 | 0.019944333379594194 | 0.02066753791852079
-  L_1 Model  |[0.15932339] | [0.15899693] | [0.16342187]
- L_inf Model |[159.32338611] | [158.99693366] | [163.42187244]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.014228441358518785 | 0.01569392657826019 | 0.0175237523832753
-  L_1 Model  |0.014228441358518785 | 0.01569392657826019 | 0.0175237523832753
- L_inf Model |0.014228441358518785 | 0.01569392657826019 | 0.0175237523832753
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.0181208608942979 | 0.01822518537132518 | 0.02098924713308703
-  L_1 Model  |[0.15223763] | [0.15167471] | [0.16362586]
- L_inf Model |[152.23763076] | [151.67470575] | [163.62585619]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.011943099462933588 | 0.013520142912610267 | 0.014624811926638509
-  L_1 Model  |0.011943099462933588 | 0.013520142912610267 | 0.014624811926638509
- L_inf Model |0.011943099462933588 | 0.013520142912610267 | 0.014624811926638509
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.021258086314053327 | 0.02135288549418082 | 0.02333424196696291
-  L_1 Model  |[0.16612573] | [0.16587259] | [0.17384957]
- L_inf Model |[166.12572601] | [165.8725906] | [173.84956956]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.018198840113304037 | 0.023820814439493368 | 0.02141203171529984
-  L_1 Model  |0.018198840113304037 | 0.023820814439493368 | 0.02141203171529984
- L_inf Model |0.018198840113304037 | 0.023820814439493368 | 0.02141203171529984
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01982529465550142 | 0.019859288797561127 | 0.022279176217736427
-  L_1 Model  |[0.16101191] | [0.16096678] | [0.17110317]
- L_inf Model |[161.0119052] | [160.96677671] | [171.10316722]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.01668611822534374 | 0.017859143236106847 | 0.023350914168962227
-  L_1 Model  |0.01668611822534374 | 0.017859143236106847 | 0.023350914168962227
- L_inf Model |0.01668611822534374 | 0.017859143236106847 | 0.023350914168962227
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.020756423579936904 | 0.020813295727871592 | 0.02516841726619706
-  L_1 Model  |[0.16414213] | [0.16387052] | [0.18255077]
- L_inf Model |[164.14213452] | [163.87051995] | [182.55077015]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.008613597528052913 | 0.009626577384184435 | 0.011374229747389452
-  L_1 Model  |0.008613597528052913 | 0.009626577384184435 | 0.011374229747389452
- L_inf Model |0.008613597528052913 | 0.009626577384184435 | 0.011374229747389452
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.021400927839452143 | 0.021481405455876876 | 0.022800374712724045
-  L_1 Model  |[0.16366417] | [0.16338043] | [0.16897393]
- L_inf Model |[163.66417388] | [163.3804335] | [168.97392505]
-
-Table: Different training losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.00861758550879005 | 0.008778397357821856 | 0.009994029276215465
-  L_1 Model  |0.00861758550879005 | 0.008778397357821856 | 0.009994029276215465
- L_inf Model |0.00861758550879005 | 0.008778397357821856 | 0.009994029276215465
-
-Table: Different test losses for different models
-   Model     | L_2 loss  | L_2 loss  | L_inf loss
-  L_2 Model  |0.019171145653223778 | 0.01919335729979114 | 0.023056093932701832
-  L_1 Model  |[0.15812907] | [0.15799128] | [0.1732602]
- L_inf Model |[158.12907159] | [157.99128195] | [173.26020411]
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.5887073208488474 | 1 |9.685454059110057e+110 | 0.1   |-8.544383053831851e+104
+ 50    |6.681187863472287e+78 | 2 |8.264222796482778e+103 | 1.0   |2.710698337871812e+209
+ 100   |1.3264423843113885e+108 | 4 |1.399214959758374e+108 | 10.0  |nan
+ 200   |9.257088690786201e+145 | 8 |-1.115438668225958e+103 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |3.5398926683963936e+210 | 1 |3.874201127686805e+217 | 0.1   |-2.3995542115574723e+214
+ 50    |-6.092265290698519e+211 | 2 |2.4318346396293315e+214 | 1.0   |nan
+ 100   |6.531618010146513e+210 | 4 |1.052244909446209e+211 | 10.0  |nan
+ 200   |7.849208802619096e+218 | 8 |-2.7914629345974663e+208 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-3318337365.0413804 | 1 |3.166171798797541e+108 | 0.1   |4.508780977663195e+109
+ 50    |2.7797360116551276e+77 | 2 |3.607196350170701e+113 | 1.0   |1.3575235219470153e+204
+ 100   |-7.336865284021071e+107 | 4 |-7.02001164203185e+104 | 10.0  |7.71688856270352e+305
+ 200   |-5.48717545945836e+141 | 8 |1.8614665094700543e+106 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |3.980400111873265e+210 | 1 |-1.2355647798273682e+221 | 0.1   |2.5293258269495735e+214
+ 50    |2.366454113395718e+211 | 2 |5.505183994251537e+213 | 1.0   |nan
+ 100   |9.808201183776644e+213 | 4 |1.2861791272388231e+211 | 10.0  |nan
+ 200   |4.936166010965149e+218 | 8 |-2.4592667474051196e+208 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |2893601962.2312965 | 1 |1.1794132549973481e+111 | 0.1   |2.2901452273076475e+113
+ 50    |-3.705764488902992e+85 | 2 |-7.795352480019006e+110 | 1.0   |1.1571776433939313e+205
+ 100   |-5.3891732936010125e+107 | 4 |-1.0515009578453442e+108 | 10.0  |nan
+ 200   |-8.980355782685844e+136 | 8 |1.7423283717480669e+109 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-1.0171551261277492e+208 | 1 |2.9305768985817667e+217 | 0.1   |1.1961328084877877e+213
+ 50    |6.375877122642293e+211 | 2 |3.68075236621739e+213 | 1.0   |nan
+ 100   |5.797072998795849e+212 | 4 |-1.2187543236836965e+212 | 10.0  |nan
+ 200   |3.707405660964195e+218 | 8 |-1.6506216795273347e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |107392.49930268108 | 1 |2.023251110142703e+114 | 0.1   |-3.0315126380895086e+111
+ 50    |8.038428206286163e+76 | 2 |1.9257604389927175e+110 | 1.0   |-1.929502896009264e+213
+ 100   |3.6429957695797507e+108 | 4 |1.3828508737098547e+107 | 10.0  |nan
+ 200   |-1.2886023254284662e+135 | 8 |1.3486832206866585e+106 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-2.0864123594224526e+209 | 1 |5.923967675270361e+218 | 0.1   |-2.647238793252183e+214
+ 50    |9.214106087317534e+211 | 2 |2.8130425159078393e+215 | 1.0   |nan
+ 100   |-3.0975112776816678e+212 | 4 |1.6044731437039901e+211 | 10.0  |nan
+ 200   |3.8370717189394284e+216 | 8 |3.198155354712311e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |0.8806395024314195 | 1 |5.62337913758968e+114 | 0.1   |3.451683832318016e+103
+ 50    |1.1263503627056595e+82 | 2 |-2.572769313820822e+110 | 1.0   |7.052244394804065e+214
+ 100   |1.206663493917033e+116 | 4 |-3.9728119054783846e+100 | 10.0  |2.820695859868985e+307
+ 200   |-1.9418084651194348e+142 | 8 |3.535002289781789e+106 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-7.849990509766216e+208 | 1 |-2.6863715107312336e+219 | 0.1   |5.285532934298051e+214
+ 50    |-1.5137229109368103e+211 | 2 |-3.768247995947978e+215 | 1.0   |nan
+ 100   |1.4880774603231338e+212 | 4 |2.650023365220947e+210 | 10.0  |nan
+ 200   |2.2801852272284108e+216 | 8 |3.4594232544168816e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |7169186344.458417 | 1 |8.648674473840346e+112 | 0.1   |4.121593375930555e+107
+ 50    |1.8406326897815568e+86 | 2 |-5.136207851112755e+109 | 1.0   |2.2931719964554517e+210
+ 100   |3.0911635444732773e+114 | 4 |7.732866276359234e+100 | 10.0  |nan
+ 200   |7.360918496594647e+141 | 8 |1.8549240146478945e+104 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-7.265877925408103e+207 | 1 |1.5448797152692444e+220 | 0.1   |2.958408790538185e+215
+ 50    |8.854418333435177e+211 | 2 |1.6531413354282244e+213 | 1.0   |nan
+ 100   |1.1871220490486944e+215 | 4 |2.790184303947682e+211 | 10.0  |nan
+ 200   |1.7962305817881252e+220 | 8 |7.346571867308058e+208 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |16831699355387.305 | 1 |2.1904248402060403e+115 | 0.1   |1.1644055635502312e+108
+ 50    |3.6603538849979154e+76 | 2 |-1.6624087513223502e+110 | 1.0   |9.70667384054138e+202
+ 100   |1.3330069335761428e+107 | 4 |3.115565636912145e+107 | 10.0  |nan
+ 200   |7.69222027054193e+141 | 8 |-5.2427165324156814e+104 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.051046737928901e+211 | 1 |4.9065539887242374e+219 | 0.1   |-1.653656851678039e+213
+ 50    |-5.654124985922029e+210 | 2 |7.350139682038665e+211 | 1.0   |nan
+ 100   |-1.4863750228315118e+214 | 4 |5.1191269277506893e+210 | 10.0  |nan
+ 200   |-2.389906198734426e+218 | 8 |-4.4050371417359185e+208 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |604311584.5062443 | 1 |4.765646026329451e+108 | 0.1   |1.6342563739725154e+113
+ 50    |1.4002301159201677e+79 | 2 |1.74064274492961e+107 | 1.0   |7.290943358391204e+206
+ 100   |5.263067743185593e+102 | 4 |6.070961962595482e+109 | 10.0  |nan
+ 200   |2.7991295952958515e+139 | 8 |-8.091620930121673e+101 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |9.11299713820462e+210 | 1 |3.128123255128227e+216 | 0.1   |-6.016825260606337e+213
+ 50    |-1.5177524259339362e+212 | 2 |1.0302360944691367e+216 | 1.0   |nan
+ 100   |-7.262099196146719e+213 | 4 |9.751703706378137e+210 | 10.0  |nan
+ 200   |-9.134196693946885e+218 | 8 |-4.851825641379698e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.9213669396576416 | 1 |1.0889921853777e+109 | 0.1   |4.193558815286653e+111
+ 50    |-3.797729510521591e+78 | 2 |4.152797683150825e+109 | 1.0   |1.222285595272223e+209
+ 100   |1.9350171191799553e+103 | 4 |2.0626817998779343e+104 | 10.0  |8.775151258826349e+304
+ 200   |-1.297090743320634e+147 | 8 |-6.915344458132493e+101 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.9345517841500225e+208 | 1 |4.024223352144386e+218 | 0.1   |8.675006463806541e+213
+ 50    |3.1838202208019717e+211 | 2 |2.9888995951769885e+214 | 1.0   |nan
+ 100   |8.402143598777942e+212 | 4 |6.853861329494663e+209 | 10.0  |nan
+ 200   |7.989022062043416e+215 | 8 |6.107049126319675e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-1.2158129084230158e+37 | 1 |-1.4588951973536691e+121 | 0.1   |2.713803304589833e+109
+ 50    |-9.503662539638893e+75 | 2 |9.279016782561824e+113 | 1.0   |1.5040388982981859e+208
+ 100   |1.586212234542708e+106 | 4 |3.7236351656455037e+105 | 10.0  |nan
+ 200   |1.361740270081602e+144 | 8 |1.0967412564621194e+103 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.4570704920739101e+209 | 1 |2.307302537484164e+217 | 0.1   |-1.2564702067557648e+215
+ 50    |1.284207519250175e+211 | 2 |5.3535119797824e+213 | 1.0   |nan
+ 100   |6.735949987892597e+213 | 4 |-3.378422757447662e+210 | 10.0  |nan
+ 200   |3.231816463011576e+218 | 8 |3.4776581412881606e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |369.30154935034744 | 1 |2.2929618409431954e+114 | 0.1   |-6.8678779097729604e+112
+ 50    |-1.4600620926110207e+90 | 2 |3.2441951084455915e+112 | 1.0   |6.0218615505159605e+208
+ 100   |4.056319748890233e+113 | 4 |-4.91576298143231e+110 | 10.0  |7.128723296597454e+300
+ 200   |7.343582558530846e+136 | 8 |3.0773573560178103e+103 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |3.0553463482842495e+209 | 1 |5.727152937708778e+217 | 0.1   |7.242680421504799e+211
+ 50    |1.791273588533185e+209 | 2 |6.698400772240744e+216 | 1.0   |nan
+ 100   |2.637888973470054e+214 | 4 |5.362010610364563e+212 | 10.0  |nan
+ 200   |1.0062654705439546e+217 | 8 |4.51422202693039e+206 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-6.613615170608433e+16 | 1 |3.636108310071247e+107 | 0.1   |1.3228798845283705e+108
+ 50    |7.825675471999792e+86 | 2 |-7.907676858694154e+111 | 1.0   |1.5717353742435615e+210
+ 100   |-1.0231438174019459e+109 | 4 |1.8902635794979782e+107 | 10.0  |nan
+ 200   |8.673341591101821e+138 | 8 |3.908486745465365e+101 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.7218360130071745e+212 | 1 |1.7486954899078707e+217 | 0.1   |9.130514752784957e+215
+ 50    |1.109247365412263e+208 | 2 |5.675071366886216e+214 | 1.0   |nan
+ 100   |2.7405801781388564e+212 | 4 |-2.857043007404294e+210 | 10.0  |nan
+ 200   |2.2322209828721466e+219 | 8 |5.834405576790464e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |93765.50874636958 | 1 |5.591623561240852e+115 | 0.1   |1.8665036772152743e+108
+ 50    |5.474092890215978e+81 | 2 |4.1953167007143043e+104 | 1.0   |-8.54754834614123e+214
+ 100   |1.6940933148244257e+113 | 4 |2.7943629163097755e+112 | 10.0  |1.0269811510907708e+307
+ 200   |4.8134180108812044e+138 | 8 |5.5632919507235984e+101 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |4.162054515785872e+207 | 1 |-1.0107209325887732e+220 | 0.1   |-1.551240971677313e+213
+ 50    |-2.440739320815385e+212 | 2 |-4.3275515220302434e+212 | 1.0   |nan
+ 100   |1.0214416791741383e+214 | 4 |1.1218162332069701e+209 | 10.0  |nan
+ 200   |2.8478759007582135e+218 | 8 |1.0217709028623184e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |281053.6892717875 | 1 |5.645626436971277e+111 | 0.1   |5.918078726822386e+112
+ 50    |-4.4842570911100263e+73 | 2 |5.320968802608037e+108 | 1.0   |4.789168087923847e+205
+ 100   |9.845635966644243e+104 | 4 |2.931309934417528e+110 | 10.0  |nan
+ 200   |6.777737240847135e+139 | 8 |7.006271666891828e+100 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-6.550946717218225e+210 | 1 |6.42093691031691e+217 | 0.1   |-2.0928712242286923e+214
+ 50    |-1.0127742946069809e+211 | 2 |2.54630935660651e+213 | 1.0   |nan
+ 100   |1.4886830392030376e+212 | 4 |-3.524732988256185e+209 | 10.0  |nan
+ 200   |3.269008876202718e+218 | 8 |3.416337185103225e+208 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-1.7411448468616157e+26 | 1 |7.788495751752272e+110 | 0.1   |1.3477699699231438e+118
+ 50    |-6.602253990349314e+74 | 2 |-1.536240861339966e+108 | 1.0   |2.332964714724819e+202
+ 100   |-1.0359795721416109e+111 | 4 |1.0374121538805898e+104 | 10.0  |nan
+ 200   |1.464593455754941e+138 | 8 |1.1150805981974087e+104 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.022360393823991e+209 | 1 |9.78054272589155e+216 | 0.1   |-2.764253585313786e+214
+ 50    |2.063383113331989e+212 | 2 |7.468935963226194e+214 | 1.0   |nan
+ 100   |3.5350446318700576e+214 | 4 |5.033577207129591e+210 | 10.0  |nan
+ 200   |-1.7165487601080114e+218 | 8 |2.0070746927034743e+208 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |4.2232543210113676e+21 | 1 |1.315384268233333e+108 | 0.1   |6.544747501168845e+110
+ 50    |2.6580852886768416e+79 | 2 |-4.674470909301346e+110 | 1.0   |-2.693747753752943e+201
+ 100   |-3.1838828096894275e+109 | 4 |-6.873449921082053e+104 | 10.0  |9.285412314020703e+306
+ 200   |1.32032147034131e+139 | 8 |9.844447608996356e+101 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-1.35836562407335e+210 | 1 |1.1177644950917274e+219 | 0.1   |-8.436808598920422e+213
+ 50    |1.5945489511751028e+213 | 2 |4.365942154149638e+214 | 1.0   |nan
+ 100   |-1.1184438914754177e+216 | 4 |3.558188179927858e+211 | 10.0  |nan
+ 200   |-3.8687146062733124e+218 | 8 |8.92796504347209e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |6.004562332051188e+19 | 1 |1.5492059244547805e+117 | 0.1   |1.806185734240266e+109
+ 50    |-1.0661866672818016e+82 | 2 |1.696698562084778e+108 | 1.0   |1.1410016201781382e+214
+ 100   |5.005379384186941e+110 | 4 |2.284474418146504e+104 | 10.0  |5.946013130444508e+300
+ 200   |9.480757368791391e+137 | 8 |-2.426680625277647e+104 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-6.330147690445354e+207 | 1 |6.460173730482653e+216 | 0.1   |6.565702858109736e+212
+ 50    |1.1959313927514087e+210 | 2 |-2.6805803206344567e+214 | 1.0   |nan
+ 100   |-9.877670791508315e+213 | 4 |6.233657905821862e+209 | 10.0  |nan
+ 200   |1.8390672640608714e+219 | 8 |8.407436719003657e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |4.463864438462133e+17 | 1 |-2.2994293350976792e+115 | 0.1   |2.0602014693139175e+110
+ 50    |2.4518736071830122e+73 | 2 |3.611264330407994e+104 | 1.0   |-7.183071168454619e+207
+ 100   |5.1043433579896994e+109 | 4 |4.846879378229176e+109 | 10.0  |nan
+ 200   |3.4774105543266276e+139 | 8 |5.7709329019467184e+103 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |2.184400423183505e+210 | 1 |-1.400069004604957e+217 | 0.1   |2.2731287880053356e+212
+ 50    |2.978914066261042e+211 | 2 |1.279711897554009e+213 | 1.0   |nan
+ 100   |2.8838329380073256e+213 | 4 |5.690180558628837e+210 | 10.0  |nan
+ 200   |9.987767146048197e+216 | 8 |1.3741338388989592e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |5.416661291547309e+28 | 1 |-4.4562476857954064e+108 | 0.1   |-1.3841717747749747e+108
+ 50    |3.0397970749549805e+72 | 2 |1.1147903772147834e+112 | 1.0   |-9.426090419059176e+207
+ 100   |2.7178090530671017e+104 | 4 |-2.5521788178587846e+102 | 10.0  |nan
+ 200   |7.567472162832822e+135 | 8 |2.24479689231959e+104 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.7696698816820767e+210 | 1 |2.1409649595058696e+221 | 0.1   |1.6940814763926445e+214
+ 50    |1.8449120432180036e+211 | 2 |7.8992811982243e+212 | 1.0   |nan
+ 100   |-5.137600112268776e+214 | 4 |-2.7808718341841046e+210 | 10.0  |nan
+ 200   |5.19271968526884e+219 | 8 |-1.6817045450857308e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.3081517575880001e+21 | 1 |1.275832215457325e+117 | 0.1   |4.486809063271805e+112
+ 50    |6.904284166852322e+74 | 2 |3.9912626719178105e+107 | 1.0   |-1.4110303430508433e+208
+ 100   |-8.495042357197093e+104 | 4 |6.748545228130605e+101 | 10.0  |3.621219300988426e+302
+ 200   |-1.4553813962741192e+145 | 8 |4.223424900655802e+103 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |6.299122428670017e+210 | 1 |4.444501808544312e+218 | 0.1   |3.05906638616829e+213
+ 50    |-8.40725265096572e+212 | 2 |9.875077764774303e+213 | 1.0   |nan
+ 100   |-1.960400108375862e+213 | 4 |-9.045174176831048e+210 | 10.0  |nan
+ 200   |2.787960328457965e+218 | 8 |-2.93964519595011e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |5.971280466861903e+16 | 1 |-9.543520662744071e+114 | 0.1   |-1.1904511180946586e+112
+ 50    |-9.065774877191779e+80 | 2 |4.3954484618606835e+108 | 1.0   |3.122511258791159e+208
+ 100   |2.6111564744706916e+110 | 4 |3.7050434737996586e+105 | 10.0  |-inf
+ 200   |8.419788350625676e+140 | 8 |1.664052932136176e+107 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |6.5545010985415465e+209 | 1 |3.887616770139285e+219 | 0.1   |7.108531614400062e+212
+ 50    |3.84468874402702e+209 | 2 |2.0601701668113042e+215 | 1.0   |nan
+ 100   |3.5125150936876847e+214 | 4 |7.457275969545165e+210 | 10.0  |nan
+ 200   |-1.444508139570283e+218 | 8 |1.6144107817204119e+208 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |96080953602771.42 | 1 |-2.8856252522796293e+111 | 0.1   |7.976899098554747e+105
+ 50    |2.901886840459323e+80 | 2 |-2.0954035273116273e+111 | 1.0   |2.6022679607400807e+211
+ 100   |-3.6422325320145064e+109 | 4 |4.2034436203032323e+107 | 10.0  |nan
+ 200   |-4.9125478066632345e+144 | 8 |3.89851294694231e+103 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.1643058351439338e+208 | 1 |3.27699898110098e+220 | 0.1   |9.513158949294682e+213
+ 50    |7.822256053476066e+210 | 2 |-6.139011785140284e+213 | 1.0   |nan
+ 100   |7.356531409251062e+211 | 4 |-1.7311281442287552e+211 | 10.0  |nan
+ 200   |1.8655079973969728e+215 | 8 |1.0196648554552669e+208 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.0806436752361614 | 1 |-8.783773344799516e+122 | 0.1   |-4.727471646490108e+110
+ 50    |2.55455457682823e+66 | 2 |1.9571558329299465e+109 | 1.0   |1.019694057727286e+209
+ 100   |2.7954559472035576e+109 | 4 |6.864728302997345e+111 | 10.0  |nan
+ 200   |-1.3331856187153733e+138 | 8 |1.7382459192618727e+101 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-5.952485158625767e+210 | 1 |3.0989980890835124e+216 | 0.1   |1.1396236682174333e+215
+ 50    |6.551282890587061e+210 | 2 |4.9603728214339904e+213 | 1.0   |nan
+ 100   |1.7812736837398793e+211 | 4 |5.437571887476225e+210 | 10.0  |nan
+ 200   |1.742712999849798e+218 | 8 |-8.099783088221839e+208 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |2.4581409727839834 | 1 |-9.870213524123831e+116 | 0.1   |6.090673579694257e+103
+ 50    |3.5664453137457625e+82 | 2 |-3.8932616089332465e+110 | 1.0   |8.41569374725559e+212
+ 100   |4.0412462465080466e+101 | 4 |-6.130105602839589e+111 | 10.0  |nan
+ 200   |-3.0486514375963774e+139 | 8 |-6.91580643173801e+101 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.5033872084565555e+207 | 1 |8.25132061536061e+219 | 0.1   |1.0086416038793612e+214
+ 50    |1.1835781469004135e+213 | 2 |-1.0829870080328593e+215 | 1.0   |nan
+ 100   |2.4825890211018316e+213 | 4 |-1.1504021284198792e+211 | 10.0  |nan
+ 200   |-6.850262523910636e+217 | 8 |-1.255738453676547e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.0459879347748593e+22 | 1 |-1.5548132173685076e+114 | 0.1   |9.411760834298559e+111
+ 50    |-1.1667229186183717e+75 | 2 |5.8626950103773e+104 | 1.0   |3.227889899749799e+210
+ 100   |-4.2675632120937486e+111 | 4 |6.505450535225832e+103 | 10.0  |nan
+ 200   |1.715028982321362e+141 | 8 |1.8900052182594408e+106 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.0302270320230998e+208 | 1 |-1.6648972911765418e+218 | 0.1   |1.3022526295677732e+215
+ 50    |6.908723272189485e+212 | 2 |1.869094607488309e+213 | 1.0   |nan
+ 100   |6.488620472178913e+215 | 4 |4.218356271187507e+208 | 10.0  |nan
+ 200   |1.8236235160360646e+218 | 8 |4.9096400734993924e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |0.8259596472464922 | 1 |4.5534017994871324e+113 | 0.1   |1.3983922416533835e+109
+ 50    |-8.713205564404602e+79 | 2 |6.185154945556519e+112 | 1.0   |-1.0480319111748471e+212
+ 100   |-1.2317504409596497e+114 | 4 |5.717568339582999e+106 | 10.0  |nan
+ 200   |1.9453838789681044e+140 | 8 |-1.4211414275318612e+109 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |3.0131470611271984e+210 | 1 |2.069218695638281e+216 | 0.1   |-4.0455971660564436e+213
+ 50    |2.3351190451570568e+212 | 2 |1.9148447677438194e+215 | 1.0   |nan
+ 100   |7.781092152893194e+215 | 4 |1.779746920696795e+210 | 10.0  |nan
+ 200   |-7.256395786793258e+216 | 8 |3.0330009375994767e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.214714684759575e+16 | 1 |-5.8879080865327996e+109 | 0.1   |1.1237494793981428e+113
+ 50    |9.516434292321881e+75 | 2 |2.0619736235817875e+107 | 1.0   |2.1050079409442934e+212
+ 100   |3.2558651269199755e+111 | 4 |6.088694433609547e+107 | 10.0  |nan
+ 200   |-2.3238514268134593e+134 | 8 |-4.995020601090372e+102 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.0358586633536702e+209 | 1 |1.4167257896385341e+217 | 0.1   |-1.0011127949007629e+215
+ 50    |-9.513553600448536e+211 | 2 |1.9155759774702817e+214 | 1.0   |nan
+ 100   |5.559195479774964e+212 | 4 |2.4907181092959023e+209 | 10.0  |nan
+ 200   |4.250045475640002e+218 | 8 |2.9997499179664157e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |0.5298605665065259 | 1 |3.8867896088192975e+106 | 0.1   |-1.3648512417160558e+108
+ 50    |-4.480361267793741e+82 | 2 |1.8913344803195262e+110 | 1.0   |2.5206626072607245e+204
+ 100   |1.943403859583451e+109 | 4 |1.9966069607499632e+101 | 10.0  |-inf
+ 200   |9.812805474188259e+130 | 8 |5.197402083305349e+101 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |2.100028656327172e+210 | 1 |1.4534942347165304e+219 | 0.1   |1.6027074417925677e+214
+ 50    |6.556374842958114e+211 | 2 |-2.311957127250301e+213 | 1.0   |nan
+ 100   |-5.55502602983419e+214 | 4 |-9.858502031273959e+209 | 10.0  |nan
+ 200   |1.4128438571884584e+217 | 8 |-2.9005651626283476e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |6.662633180153943 | 1 |1.5643986099997502e+111 | 0.1   |6.457176337833762e+113
+ 50    |3.7966841985424504e+87 | 2 |3.1053309474634935e+117 | 1.0   |2.9913855649715425e+210
+ 100   |2.6003066205814703e+114 | 4 |-1.6626171325241104e+102 | 10.0  |nan
+ 200   |9.41027285331256e+136 | 8 |4.070427230184081e+101 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |7.259757060088334e+210 | 1 |1.4802657539753507e+218 | 0.1   |3.308143747502485e+213
+ 50    |1.0147457753309175e+211 | 2 |2.0066948410929748e+216 | 1.0   |nan
+ 100   |6.523961095487844e+212 | 4 |2.2957881249161795e+209 | 10.0  |nan
+ 200   |2.5123868638113626e+219 | 8 |3.0478910452528077e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |14777339353034.037 | 1 |7.984475886084914e+118 | 0.1   |-1.8338244511068686e+111
+ 50    |-1.661088823243705e+82 | 2 |5.945680638679516e+108 | 1.0   |1.0989444483257659e+212
+ 100   |2.0921796112122514e+109 | 4 |1.79510381198169e+110 | 10.0  |2.761577293065664e+304
+ 200   |-9.014625911131131e+143 | 8 |-6.08676889924308e+103 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |2.7940645649589543e+210 | 1 |-5.763730418765131e+218 | 0.1   |8.400751404760248e+212
+ 50    |2.92053683157505e+210 | 2 |-5.046987558929888e+214 | 1.0   |nan
+ 100   |2.460141049044527e+211 | 4 |-7.867348303133868e+209 | 10.0  |nan
+ 200   |-1.829395452311602e+218 | 8 |-3.230658074339598e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |4.956376263776349e+18 | 1 |1.3856175511780997e+118 | 0.1   |1.7666137086109734e+114
+ 50    |8.604947546469333e+81 | 2 |8.341936260544356e+114 | 1.0   |8.556716997032355e+200
+ 100   |3.234801967759543e+109 | 4 |-1.3485171869742768e+112 | 10.0  |-inf
+ 200   |2.0939370194680003e+137 | 8 |1.4336318594252256e+109 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |8.925692878064917e+208 | 1 |-1.5512516441360568e+219 | 0.1   |3.686705957043992e+212
+ 50    |1.2768500492375363e+211 | 2 |1.893513664323486e+213 | 1.0   |nan
+ 100   |-2.304426762908139e+216 | 4 |7.378270356673428e+208 | 10.0  |nan
+ 200   |8.167298458565111e+215 | 8 |-3.227834958101882e+206 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |5.650858542839681e+23 | 1 |3.762205995187919e+120 | 0.1   |1.1971213446620274e+111
+ 50    |-2.1562800183344038e+80 | 2 |-7.929072180030249e+110 | 1.0   |-4.906439171809778e+211
+ 100   |1.5265774901467426e+109 | 4 |1.2676938606075887e+103 | 10.0  |nan
+ 200   |-5.296383296434461e+139 | 8 |1.4908210646109467e+104 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |7.60272182295116e+210 | 1 |1.9810494353465441e+217 | 0.1   |4.8056895195447226e+212
+ 50    |-1.3822118698567983e+213 | 2 |2.0199626222091002e+214 | 1.0   |nan
+ 100   |6.499077882141983e+213 | 4 |-1.5342239845161313e+209 | 10.0  |nan
+ 200   |9.465902912931629e+216 | 8 |1.2631969162804098e+209 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |94540455138.14452 | 1 |3.990809601983324e+110 | 0.1   |2.3626418233662927e+111
+ 50    |2.385658605593896e+64 | 2 |5.3669843316774415e+107 | 1.0   |-1.0569009165393628e+213
+ 100   |9.289198296131137e+112 | 4 |5.5231773750855316e+107 | 10.0  |5.155779208331805e+305
+ 200   |-1.6985438906292428e+142 | 8 |-2.287072734314766e+102 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |3.013310526161607e+210 | 1 |2.1882116046069156e+218 | 0.1   |1.402639473306714e+214
+ 50    |-1.9753735983216157e+210 | 2 |5.933572358107158e+213 | 1.0   |nan
+ 100   |5.886974536849354e+213 | 4 |2.9580302718667746e+209 | 10.0  |nan
+ 200   |3.2108748485629163e+217 | 8 |-6.64911769775409e+206 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-1.1379491888280188e+25 | 1 |2.9575248074270634e+111 | 0.1   |-1.263520342437962e+103
+ 50    |-1.5360689910627052e+85 | 2 |6.969904243676614e+107 | 1.0   |1.411142907358768e+212
+ 100   |6.164272278343707e+99 | 4 |2.202784322765544e+106 | 10.0  |-inf
+ 200   |9.083093618328774e+144 | 8 |1.4337113698867502e+101 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.5520125366455845e+207 | 1 |2.7879749322479744e+218 | 0.1   |-5.67096791370079e+216
+ 50    |6.1462383132689275e+211 | 2 |-1.3341993839247395e+215 | 1.0   |nan
+ 100   |9.536395437322947e+212 | 4 |3.015841742507014e+208 | 10.0  |nan
+ 200   |6.69664165355444e+216 | 8 |1.9389420812491805e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |2.245003165499533e+25 | 1 |1.85495101352403e+116 | 0.1   |2.6054799809805314e+111
+ 50    |9.727060304473276e+83 | 2 |1.43965562806216e+109 | 1.0   |6.265920217966832e+221
+ 100   |3.5945815875546006e+107 | 4 |6.422081316727344e+106 | 10.0  |2.5882677228478615e+307
+ 200   |2.7773689153180224e+140 | 8 |2.1677771452637387e+101 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-5.6422820555021865e+212 | 1 |2.994491022849056e+219 | 0.1   |-5.36717763856509e+214
+ 50    |-9.329977478923965e+212 | 2 |6.20461510583578e+213 | 1.0   |nan
+ 100   |-7.330506309272866e+214 | 4 |6.866338962836471e+210 | 10.0  |nan
+ 200   |-3.6593460360178753e+217 | 8 |4.283197043464501e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |0.12636518665254334 | 1 |8.852747961560105e+114 | 0.1   |4.221943366066231e+112
+ 50    |6.229184251057646e+79 | 2 |7.541935258546174e+111 | 1.0   |6.567363458679411e+207
+ 100   |-1.258426504235913e+111 | 4 |1.849979864933637e+103 | 10.0  |nan
+ 200   |4.562412524471502e+141 | 8 |2.8228765775660424e+102 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.1655427228237805e+211 | 1 |2.8272527684251735e+220 | 0.1   |2.5202120484726854e+215
+ 50    |3.017745944090743e+211 | 2 |-3.2538531239803553e+212 | 1.0   |nan
+ 100   |1.0841518502644878e+215 | 4 |1.4027753180293044e+209 | 10.0  |nan
+ 200   |8.24086862876778e+217 | 8 |2.879479332593709e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |6.559892665127857e+16 | 1 |-9.178663352516927e+123 | 0.1   |9.705325848109949e+113
+ 50    |9.55090976858361e+77 | 2 |4.83027109463331e+106 | 1.0   |1.6986425968003927e+208
+ 100   |7.88948883450899e+115 | 4 |6.475851306669798e+108 | 10.0  |nan
+ 200   |1.227992103998095e+139 | 8 |1.8927202861086152e+107 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-3.5762966436168394e+209 | 1 |2.0216002721131936e+217 | 0.1   |5.329515757552972e+216
+ 50    |4.194302535606083e+212 | 2 |1.0204329044534335e+215 | 1.0   |nan
+ 100   |5.640798122739543e+214 | 4 |7.721657177208923e+209 | 10.0  |nan
+ 200   |-6.375662538109223e+218 | 8 |2.4185981334012324e+208 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |949089807705.9165 | 1 |4.4717493414878845e+110 | 0.1   |5.682724967297716e+111
+ 50    |-5.1546513355397026e+85 | 2 |1.2447883037936401e+104 | 1.0   |-1.0915855715788622e+208
+ 100   |6.285172872652486e+112 | 4 |4.280948765013741e+106 | 10.0  |-inf
+ 200   |-1.512136401049104e+143 | 8 |1.6302396712210776e+104 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-6.702967975526717e+207 | 1 |1.2162328586057143e+219 | 0.1   |1.6753738530557166e+213
+ 50    |4.985041132020246e+212 | 2 |-6.746568243276345e+213 | 1.0   |nan
+ 100   |-1.139763919652464e+214 | 4 |-1.19003640625925e+211 | 10.0  |nan
+ 200   |2.616481073811317e+216 | 8 |-8.622683030967093e+206 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-3.252162904997476e+20 | 1 |5.244879057491058e+108 | 0.1   |1.289726121068709e+106
+ 50    |6.973548007551732e+83 | 2 |-2.132092806304701e+109 | 1.0   |-4.7744922010413295e+203
+ 100   |-1.5358338528299207e+105 | 4 |-8.267831187310923e+103 | 10.0  |nan
+ 200   |3.1450811264117505e+141 | 8 |6.825512567546038e+104 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |2.851370024130372e+210 | 1 |1.559504503480341e+217 | 0.1   |1.365005035255471e+215
+ 50    |8.41196531727669e+213 | 2 |7.246092183672974e+213 | 1.0   |nan
+ 100   |9.520454129532132e+211 | 4 |5.29028274693494e+210 | 10.0  |nan
+ 200   |-6.447420984141193e+216 | 8 |-3.1847257048697655e+206 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |3613798848523130.5 | 1 |-3.725306032334616e+113 | 0.1   |4.1893313079570827e+105
+ 50    |2.0929902247522256e+78 | 2 |2.444741682563173e+108 | 1.0   |1.8206546937585136e+211
+ 100   |-6.658568730867329e+108 | 4 |5.208833392264194e+105 | 10.0  |6.066168313889218e+303
+ 200   |-5.909759797908521e+142 | 8 |1.2747639867066503e+103 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |3.764233623645812e+210 | 1 |1.0957276999432635e+218 | 0.1   |1.10903443879857e+216
+ 50    |7.875529202272559e+210 | 2 |-2.4089116664488088e+216 | 1.0   |nan
+ 100   |1.6254633581988735e+214 | 4 |7.856039456633101e+210 | 10.0  |nan
+ 200   |2.585257245483959e+217 | 8 |-2.2371312875637034e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |9878248881349338.0 | 1 |1.5945506581029987e+113 | 0.1   |3.0033347938243606e+108
+ 50    |1.27264411488576e+93 | 2 |-1.8250431244395668e+111 | 1.0   |-1.7011451404390948e+210
+ 100   |-1.3311649228189559e+107 | 4 |2.211987942958182e+106 | 10.0  |nan
+ 200   |4.672456337200252e+144 | 8 |2.455953773118838e+104 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.5471009492432492e+211 | 1 |1.1500426816909039e+219 | 0.1   |3.2405979036598316e+211
+ 50    |1.381175582022442e+213 | 2 |1.2841487579820567e+215 | 1.0   |nan
+ 100   |-8.578692995582524e+215 | 4 |-3.871060255574359e+211 | 10.0  |nan
+ 200   |-9.797986266970411e+216 | 8 |-3.9959663118425665e+204 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |2.19343022641847e+19 | 1 |1.091353133656954e+126 | 0.1   |1.4759699245250634e+110
+ 50    |-6.314729024204743e+72 | 2 |8.328421037493386e+110 | 1.0   |1.0384640247175158e+208
+ 100   |-6.465453790994439e+105 | 4 |4.415983767175015e+102 | 10.0  |nan
+ 200   |5.801370721063024e+136 | 8 |1.650992666325736e+100 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.75065967994115e+209 | 1 |1.4143726097636114e+217 | 0.1   |-6.031434826018988e+214
+ 50    |7.076956321386588e+208 | 2 |2.5672402671583986e+214 | 1.0   |nan
+ 100   |4.7388674479681797e+213 | 4 |1.3236777701111363e+210 | 10.0  |nan
+ 200   |8.498595049160442e+219 | 8 |-6.809253824793349e+205 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.2740879972881434e+16 | 1 |3.79498699004196e+113 | 0.1   |-8.363454364710364e+109
+ 50    |2.0204048048518844e+87 | 2 |4.679368435767431e+110 | 1.0   |1.2901204343688433e+213
+ 100   |4.540046535927828e+106 | 4 |1.4165284250197474e+104 | 10.0  |nan
+ 200   |4.0701888641683445e+142 | 8 |1.490101497254434e+106 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-2.025450907024407e+209 | 1 |3.3492126034648985e+217 | 0.1   |-4.264668947550336e+214
+ 50    |-1.3890290939622216e+212 | 2 |3.002087973296729e+214 | 1.0   |nan
+ 100   |1.0476462503617112e+213 | 4 |-7.969868502136216e+208 | 10.0  |nan
+ 200   |6.531416335514712e+216 | 8 |7.800924867523963e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |15681282330.15809 | 1 |1.7624855740669847e+118 | 0.1   |3.7486953119202526e+108
+ 50    |1.6622772591310773e+76 | 2 |-3.66536188480009e+109 | 1.0   |-1.1921501176492642e+212
+ 100   |6.93881367307489e+108 | 4 |-2.072941277805008e+112 | 10.0  |nan
+ 200   |6.948003835243768e+140 | 8 |-1.2732017321351674e+110 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-3.4823656321710892e+208 | 1 |3.7398315007248076e+217 | 0.1   |-3.2694984491828736e+212
+ 50    |9.027728422449662e+211 | 2 |5.394399844292877e+216 | 1.0   |nan
+ 100   |-1.8150250716004065e+214 | 4 |1.1171227826967069e+209 | 10.0  |nan
+ 200   |7.767053740129707e+217 | 8 |-2.401094340585271e+208 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.490624455186795 | 1 |4.987040572550879e+115 | 0.1   |5.395955869269326e+106
+ 50    |-6.467084922687309e+81 | 2 |6.2132524499291654e+106 | 1.0   |3.176969747860321e+210
+ 100   |1.530526255298016e+105 | 4 |4.56735874164266e+103 | 10.0  |nan
+ 200   |2.5026746812793062e+141 | 8 |8.084409151468766e+101 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.9808968934252653e+210 | 1 |1.0995403305563135e+217 | 0.1   |3.389809543073405e+214
+ 50    |5.702231083091101e+212 | 2 |3.665626474745028e+212 | 1.0   |nan
+ 100   |1.4711411332143684e+214 | 4 |4.357697946564616e+211 | 10.0  |nan
+ 200   |6.632791949511248e+217 | 8 |-1.5724581375722287e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |9759023364.763916 | 1 |2.317504152689068e+112 | 0.1   |-1.769132828706467e+108
+ 50    |9.787168878354811e+84 | 2 |1.0221556562911468e+110 | 1.0   |-9.320645032306726e+211
+ 100   |3.7486979117735694e+110 | 4 |-4.8695235339132525e+107 | 10.0  |4.0957246280640686e+304
+ 200   |-1.3225640443793607e+138 | 8 |-7.44068664757278e+103 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.3231535307987037e+209 | 1 |-5.416330606825574e+219 | 0.1   |1.9411684051300887e+213
+ 50    |-6.404257423044086e+211 | 2 |1.9816779197433267e+214 | 1.0   |nan
+ 100   |7.347840923732669e+212 | 4 |-2.0588844264000111e+211 | 10.0  |nan
+ 200   |1.2104880855907883e+217 | 8 |-1.4442556152528681e+208 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.6817674285383334e+17 | 1 |1.0748778822433184e+114 | 0.1   |1.8835364936264577e+105
+ 50    |6.233477703416443e+80 | 2 |1.0961348584752557e+112 | 1.0   |2.3659638319645814e+212
+ 100   |4.290526225116407e+111 | 4 |-1.1255277271465175e+104 | 10.0  |-1.7087331319389085e+307
+ 200   |4.708990515103246e+141 | 8 |-1.2641426735079495e+105 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |6.5002900875246825e+209 | 1 |1.7033769988659139e+214 | 0.1   |-1.9857178906039834e+214
+ 50    |3.0604808293397125e+209 | 2 |2.2252000003341774e+215 | 1.0   |nan
+ 100   |-2.825265932187031e+213 | 4 |-4.4996131703389285e+211 | 10.0  |nan
+ 200   |3.3584017863761893e+217 | 8 |1.1982952107670198e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |2.504752613792009e+22 | 1 |3.189173166179953e+111 | 0.1   |5.8543222388129914e+107
+ 50    |4.1187350553884775e+79 | 2 |7.162860857142426e+112 | 1.0   |3.2361544304628853e+201
+ 100   |7.953089174394209e+107 | 4 |-6.0406361433933225e+106 | 10.0  |nan
+ 200   |-1.83559299046973e+137 | 8 |6.823364020722354e+106 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |4.550547501843048e+209 | 1 |2.0594190131037292e+219 | 0.1   |-1.3065267312809363e+214
+ 50    |6.411605588424347e+214 | 2 |3.461108526964528e+215 | 1.0   |nan
+ 100   |9.335654277124306e+212 | 4 |2.0955556475721482e+211 | 10.0  |nan
+ 200   |1.118193030873965e+218 | 8 |-1.4079218185275713e+208 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |9396396694023.254 | 1 |1.0410319197809215e+110 | 0.1   |1.2799658034559096e+106
+ 50    |2.8757545887374716e+75 | 2 |1.990203490983569e+109 | 1.0   |-1.5422401501428837e+207
+ 100   |9.259556232609803e+112 | 4 |7.633917273526524e+106 | 10.0  |nan
+ 200   |3.963566917559621e+137 | 8 |-8.17945497588391e+107 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |2.5318217264049585e+209 | 1 |-1.1821137418369019e+219 | 0.1   |5.433021503308024e+213
+ 50    |1.8705787406100959e+211 | 2 |9.140728811870805e+213 | 1.0   |nan
+ 100   |-3.151708555559506e+213 | 4 |5.443331440432598e+209 | 10.0  |nan
+ 200   |2.2880255505959934e+216 | 8 |-3.978040889168139e+208 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |2.7204123959395037e+19 | 1 |2.9518681384661614e+112 | 0.1   |2.5032682435026836e+106
+ 50    |5.3551149102712404e+79 | 2 |-6.813436314625104e+112 | 1.0   |4.994861919470534e+205
+ 100   |3.8220299628129665e+111 | 4 |8.243861542169223e+107 | 10.0  |nan
+ 200   |-8.982810512783562e+140 | 8 |3.6752342197211925e+105 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |4.4528520408058605e+209 | 1 |-5.499956456690793e+218 | 0.1   |-1.4480618116029009e+214
+ 50    |2.881631545527945e+211 | 2 |3.257716174599243e+212 | 1.0   |nan
+ 100   |2.7216792269310283e+213 | 4 |1.6555223925521058e+209 | 10.0  |nan
+ 200   |2.0949287254626503e+218 | 8 |-4.975906647237704e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-1065095581593.3256 | 1 |1.0942117007165013e+106 | 0.1   |-1.343414748727026e+112
+ 50    |6.621698678030423e+71 | 2 |4.848872911006043e+108 | 1.0   |2.265086756536901e+204
+ 100   |-5.834912024598974e+108 | 4 |3.785742276911938e+103 | 10.0  |nan
+ 200   |6.301626470816987e+137 | 8 |-7.739752779723256e+103 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.0950409844151055e+212 | 1 |6.057832438012426e+217 | 0.1   |3.558891321926778e+213
+ 50    |2.1685656869585886e+212 | 2 |8.199312140650124e+214 | 1.0   |nan
+ 100   |-2.8178383614335007e+215 | 4 |1.9997824644210318e+209 | 10.0  |nan
+ 200   |1.1790086439349593e+218 | 8 |2.33792350095656e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |7827889050.09373 | 1 |6.9259965067089045e+109 | 0.1   |9.718787966869479e+108
+ 50    |-2.2754569734514574e+86 | 2 |-2.4682897026989876e+112 | 1.0   |2.2408230963225785e+214
+ 100   |-1.1040860463218733e+111 | 4 |-1.11702091612878e+111 | 10.0  |nan
+ 200   |-3.5145879243129904e+144 | 8 |-1.5889385025420004e+102 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-5.207457907311324e+210 | 1 |6.899996611041438e+216 | 0.1   |-4.733627007544547e+213
+ 50    |-1.746623827649505e+212 | 2 |-8.610139016634478e+213 | 1.0   |nan
+ 100   |6.311271976500989e+212 | 4 |-1.0914268618448818e+211 | 10.0  |nan
+ 200   |-5.3818048831166985e+218 | 8 |2.207237222868191e+208 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |4.256810920242916e+19 | 1 |-6.121234066330069e+112 | 0.1   |-6.563201853837586e+120
+ 50    |2.573338571740396e+85 | 2 |-1.1453241054597907e+104 | 1.0   |8.18539078831745e+201
+ 100   |6.4980326138534e+106 | 4 |8.631348826986876e+106 | 10.0  |nan
+ 200   |5.654640788453179e+139 | 8 |1.192336726198981e+102 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |2.882391509483832e+210 | 1 |1.8177382556347655e+218 | 0.1   |4.430451665644911e+213
+ 50    |2.5071414295037645e+212 | 2 |4.7165306436001734e+213 | 1.0   |nan
+ 100   |4.0342960465651544e+212 | 4 |-2.0289613099797282e+210 | 10.0  |nan
+ 200   |1.0620108376846074e+217 | 8 |6.754973996882745e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |2121581650.2714329 | 1 |-1.1541864054863006e+116 | 0.1   |1.2724184249531955e+112
+ 50    |1.0085787509909746e+82 | 2 |2.2370164089652033e+106 | 1.0   |-2.785820373709816e+216
+ 100   |-5.042811125067139e+111 | 4 |-2.654893909384744e+103 | 10.0  |nan
+ 200   |7.081455747300285e+137 | 8 |-5.423912874285194e+101 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.587907020090219e+210 | 1 |-8.704909167498747e+217 | 0.1   |-3.195197237669536e+213
+ 50    |2.5159908555719062e+212 | 2 |4.242978541448562e+213 | 1.0   |nan
+ 100   |2.0004330339812048e+213 | 4 |1.0664432174120649e+209 | 10.0  |nan
+ 200   |-6.237278198840779e+215 | 8 |2.3421290772832503e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |10.028277503777344 | 1 |3.140572485535413e+110 | 0.1   |1.4257138499383032e+114
+ 50    |7.334945734070441e+85 | 2 |5.396621779645526e+107 | 1.0   |2.65685119349575e+210
+ 100   |1.7678612809638606e+106 | 4 |3.70611624262352e+104 | 10.0  |nan
+ 200   |8.460463733926745e+138 | 8 |-1.7122320801180627e+103 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |7.095993965187165e+207 | 1 |-8.50826964496959e+218 | 0.1   |5.168366521278811e+211
+ 50    |2.3346730964699206e+210 | 2 |-3.0621820636539497e+211 | 1.0   |nan
+ 100   |-3.203663807036103e+214 | 4 |1.9104795819438442e+209 | 10.0  |nan
+ 200   |2.8682084243611317e+218 | 8 |3.2504951719469544e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |2.1926902637387076e+16 | 1 |-3.086493901366968e+120 | 0.1   |-1.6050287498576632e+112
+ 50    |-6.944840574159301e+89 | 2 |2.4493234835768317e+112 | 1.0   |7.484037371634772e+211
+ 100   |3.3383778522421765e+106 | 4 |-7.649538526394943e+107 | 10.0  |nan
+ 200   |4.6308991290088555e+141 | 8 |1.2664413216716686e+103 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-8.82552896970993e+211 | 1 |7.628838514230881e+217 | 0.1   |-4.488896150938129e+214
+ 50    |-4.318518870643816e+210 | 2 |3.3963829122562495e+212 | 1.0   |nan
+ 100   |4.534857332655187e+213 | 4 |1.551913202889483e+211 | 10.0  |nan
+ 200   |4.1823764795461295e+217 | 8 |-1.1887203391597866e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |7.07152138444167e+26 | 1 |3.007596190848825e+104 | 0.1   |-8.554808500637436e+108
+ 50    |7.905556673520751e+84 | 2 |4.241562731870862e+112 | 1.0   |1.0226449267477716e+210
+ 100   |1.3175544418910511e+104 | 4 |3.718507125256038e+100 | 10.0  |nan
+ 200   |7.613743281393662e+142 | 8 |6.787253242185234e+103 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-1.1821035512273377e+209 | 1 |-4.164551820523059e+221 | 0.1   |5.350302877645293e+212
+ 50    |-6.298701733785658e+210 | 2 |2.841233729544876e+214 | 1.0   |nan
+ 100   |5.815249507000918e+214 | 4 |2.09412143813611e+210 | 10.0  |nan
+ 200   |5.3428865979215474e+219 | 8 |-1.7681568648013733e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-10056682924891.986 | 1 |1.0128619105314044e+107 | 0.1   |-1.369868885772458e+108
+ 50    |1.4793536020191758e+81 | 2 |3.936168634279598e+106 | 1.0   |-1.5052431038445123e+214
+ 100   |-1.0177662126453206e+117 | 4 |3.244590363362442e+107 | 10.0  |nan
+ 200   |-2.1589636791315838e+139 | 8 |2.1013007505753288e+104 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |2.466736139724313e+211 | 1 |-1.3759854912815847e+220 | 0.1   |1.9716066235850896e+215
+ 50    |6.735181797322247e+211 | 2 |-1.2361764766267937e+215 | 1.0   |nan
+ 100   |2.0019869890043705e+214 | 4 |-1.6687035506492015e+210 | 10.0  |nan
+ 200   |-4.127713978649064e+217 | 8 |-1.1662426833059805e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.2093537446184723e+21 | 1 |-1.0982764122812758e+115 | 0.1   |7.081953231807516e+108
+ 50    |1.9897915720227497e+81 | 2 |9.9746121364285e+112 | 1.0   |5.633664757465649e+210
+ 100   |9.022319707304648e+113 | 4 |2.5168138816903214e+102 | 10.0  |-inf
+ 200   |-1.7807313798898218e+142 | 8 |6.121645744173871e+104 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.2842563441814205e+209 | 1 |-1.9033368780737115e+217 | 0.1   |7.142146680799863e+214
+ 50    |-6.889395263873023e+210 | 2 |-6.859930816088507e+212 | 1.0   |nan
+ 100   |8.222816061840974e+211 | 4 |1.5225841383381095e+209 | 10.0  |nan
+ 200   |2.6830356980026526e+217 | 8 |8.98792289761991e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-4.277970431671806e+17 | 1 |-1.2649069818368726e+115 | 0.1   |1.7458208526195822e+105
+ 50    |3.824551997660066e+82 | 2 |-6.0936824678305055e+112 | 1.0   |-1.097437925337643e+211
+ 100   |1.6332362667454773e+112 | 4 |5.206182624759085e+108 | 10.0  |3.750333094399853e+300
+ 200   |8.074337915559008e+139 | 8 |3.7786285502491755e+102 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-2.559452158163762e+210 | 1 |1.2849886550985227e+216 | 0.1   |3.002908794245318e+213
+ 50    |7.266163002667783e+211 | 2 |4.564727421775664e+214 | 1.0   |nan
+ 100   |-5.235155854854218e+214 | 4 |-4.2157510367367314e+210 | 10.0  |nan
+ 200   |2.4488378278844283e+215 | 8 |-1.5867537492015035e+206 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |219121051434258.34 | 1 |7.108447436855589e+115 | 0.1   |-1.6697496643079038e+113
+ 50    |-3.5711381112550656e+85 | 2 |1.5961401261487713e+110 | 1.0   |5.049091324859215e+210
+ 100   |2.1089025229947636e+103 | 4 |6.998098869468207e+112 | 10.0  |nan
+ 200   |-2.099008091200316e+140 | 8 |-7.000032415671044e+104 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.2322110648430344e+210 | 1 |7.054534702956105e+215 | 0.1   |-6.106780547554879e+215
+ 50    |-2.1039871805960814e+212 | 2 |2.944624501041266e+214 | 1.0   |nan
+ 100   |-8.89785965905056e+212 | 4 |3.6047130924025643e+210 | 10.0  |nan
+ 200   |1.485079847523801e+218 | 8 |1.2817364525792155e+206 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |4.60512348172449e+20 | 1 |-9.349924227581036e+117 | 0.1   |4.846683782018512e+108
+ 50    |1.081546965366502e+75 | 2 |2.3793308566038944e+106 | 1.0   |1.7977542009521972e+202
+ 100   |-4.630374314002817e+109 | 4 |-5.471578833142131e+108 | 10.0  |5.834487948375929e+306
+ 200   |5.2072222646659926e+141 | 8 |-2.371232929766845e+100 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |6.336851397168994e+210 | 1 |5.718102940516254e+217 | 0.1   |3.671594683926799e+211
+ 50    |1.3767394037380424e+211 | 2 |-4.374097402113475e+214 | 1.0   |nan
+ 100   |-3.179965476547389e+216 | 4 |-3.107205674874421e+210 | 10.0  |nan
+ 200   |-3.2185254181566307e+218 | 8 |-2.76234662265948e+209 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |2.428053965417113e+25 | 1 |-1.209890400683223e+111 | 0.1   |8.32174825330209e+115
+ 50    |1.0509999476197717e+82 | 2 |-3.123253311776324e+107 | 1.0   |-8.188346727796368e+215
+ 100   |-6.812109492019455e+113 | 4 |7.139497483043145e+103 | 10.0  |2.7418992454343806e+302
+ 200   |4.5336209204848474e+141 | 8 |-2.1492558358941062e+103 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-1.3175456043308853e+213 | 1 |-2.6065719195154722e+219 | 0.1   |-1.728264645891017e+211
+ 50    |2.0107279432807041e+211 | 2 |2.2272290566377113e+212 | 1.0   |nan
+ 100   |2.0773419163086564e+213 | 4 |-1.753027603508954e+209 | 10.0  |nan
+ 200   |1.2119832466220943e+218 | 8 |-1.7008051539778589e+208 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |12389649617.83265 | 1 |1.4025227695380196e+113 | 0.1   |1.7696123196754414e+115
+ 50    |4.1498573993593456e+86 | 2 |7.475281944920952e+108 | 1.0   |-8.573231619471374e+215
+ 100   |-1.7554803185443624e+108 | 4 |8.350532718354252e+100 | 10.0  |nan
+ 200   |6.293886936212287e+138 | 8 |4.0087627114597867e+104 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |6.231248548456369e+210 | 1 |-2.632127792514549e+218 | 0.1   |9.99909701338298e+215
+ 50    |1.7619171066965422e+212 | 2 |7.847051077806931e+213 | 1.0   |nan
+ 100   |1.487777160112981e+214 | 4 |-8.072247933807115e+209 | 10.0  |nan
+ 200   |-1.4672369592599676e+219 | 8 |2.4547313985152095e+208 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.05947172376922e+19 | 1 |1.032885857729942e+115 | 0.1   |-4.1986119883369146e+102
+ 50    |-1.5966385271887558e+82 | 2 |1.7643048733448788e+112 | 1.0   |2.4185988827858228e+213
+ 100   |-3.750498422625589e+111 | 4 |2.3457395126918134e+104 | 10.0  |nan
+ 200   |9.904406196102862e+138 | 8 |-4.71929971979729e+105 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.9242712169667037e+210 | 1 |-4.2941664502506527e+220 | 0.1   |8.407362127311171e+212
+ 50    |-5.957401041240883e+210 | 2 |-3.725778597468803e+216 | 1.0   |nan
+ 100   |1.952421514549935e+214 | 4 |-3.329494463683729e+209 | 10.0  |nan
+ 200   |9.490714159478682e+217 | 8 |-1.8380389885595267e+205 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.7728822330702636e+18 | 1 |9.715840551501112e+115 | 0.1   |1.5980415558279862e+115
+ 50    |3.2123755810714718e+84 | 2 |-1.1153500597057759e+108 | 1.0   |8.327458651916776e+210
+ 100   |3.9252622998387306e+110 | 4 |5.584276485739044e+102 | 10.0  |-inf
+ 200   |-2.0616352008182664e+138 | 8 |-3.019197410169204e+102 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.6656464668521965e+211 | 1 |-8.968025775766336e+217 | 0.1   |-7.689938992029065e+213
+ 50    |8.548575290507933e+209 | 2 |6.054744010102108e+211 | 1.0   |nan
+ 100   |4.9268666974333405e+212 | 4 |3.948658293019738e+209 | 10.0  |nan
+ 200   |8.457675980098504e+215 | 8 |4.370907910530119e+208 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |124.6068749358352 | 1 |2.1461557087641585e+118 | 0.1   |8.26704254353695e+109
+ 50    |1.7486949682926112e+85 | 2 |-9.416347688213537e+109 | 1.0   |1.0981414995558826e+204
+ 100   |4.2160465333667e+112 | 4 |3.5169896692774426e+109 | 10.0  |nan
+ 200   |-8.295654190294832e+139 | 8 |-2.0742095794521872e+99 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |3.8595947700922696e+209 | 1 |4.0984677816874886e+221 | 0.1   |-9.774745532242525e+215
+ 50    |-1.6589351313813022e+211 | 2 |-2.795532992727941e+213 | 1.0   |nan
+ 100   |1.1130285232184933e+213 | 4 |-1.0873364061917808e+209 | 10.0  |nan
+ 200   |-3.211977656807966e+217 | 8 |1.6785504705763092e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |586.0014258582762 | 1 |-2.275598633390972e+113 | 0.1   |2.7902525998978364e+107
+ 50    |3.9963144567517174e+92 | 2 |-7.188124381747037e+111 | 1.0   |-7.522206857924125e+209
+ 100   |7.494042174905312e+108 | 4 |-3.863669682784224e+109 | 10.0  |nan
+ 200   |1.4593235803886291e+138 | 8 |-4.0004429225096704e+102 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |2.9405540440733067e+207 | 1 |1.2442571789988925e+218 | 0.1   |2.4264310229684528e+213
+ 50    |1.1799248011847854e+212 | 2 |3.28197048698552e+214 | 1.0   |nan
+ 100   |-4.382004810266824e+214 | 4 |5.679031096861521e+211 | 10.0  |nan
+ 200   |8.025685810831244e+216 | 8 |4.545122221804089e+206 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1586312300.8341682 | 1 |2.48524154948518e+114 | 0.1   |-8.613287731540227e+118
+ 50    |-3.528462156663725e+78 | 2 |1.2700080311616126e+106 | 1.0   |-2.372626959404846e+211
+ 100   |1.918931739387602e+106 | 4 |4.837107877148766e+102 | 10.0  |nan
+ 200   |7.171272302438429e+136 | 8 |4.8774820038862314e+101 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.0037655470356235e+211 | 1 |9.265012245041102e+216 | 0.1   |2.568584262099785e+213
+ 50    |5.780276353383284e+211 | 2 |-6.014424556016512e+213 | 1.0   |nan
+ 100   |2.675782384307962e+213 | 4 |4.623375895693051e+211 | 10.0  |nan
+ 200   |2.3801239736057623e+217 | 8 |1.8243548133165008e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-4793979486.172105 | 1 |8.316682554577971e+105 | 0.1   |-1.7340009822518483e+104
+ 50    |2.7689020592554265e+87 | 2 |-2.0511130582940814e+113 | 1.0   |2.0976678569285316e+207
+ 100   |1.6676593256187987e+115 | 4 |4.633462181563116e+105 | 10.0  |nan
+ 200   |5.276484221470446e+139 | 8 |2.4297282165024557e+105 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.0141356777924804e+208 | 1 |4.083025005703933e+218 | 0.1   |-6.697944554586975e+214
+ 50    |-4.183565232281659e+210 | 2 |1.171122082931671e+214 | 1.0   |nan
+ 100   |8.026833611479678e+212 | 4 |2.928483839824136e+209 | 10.0  |nan
+ 200   |8.81775679880251e+217 | 8 |-5.449544473416421e+206 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.1274260378534926e+33 | 1 |4.268182736772302e+115 | 0.1   |1.1234761122270622e+110
+ 50    |2.932262852514874e+73 | 2 |9.813747114328925e+112 | 1.0   |1.4965564849988106e+214
+ 100   |-7.844988838878303e+103 | 4 |-6.247152286555251e+110 | 10.0  |nan
+ 200   |6.35152029550069e+140 | 8 |-1.3522408970870843e+102 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-1.230856464234532e+210 | 1 |6.381550906825645e+216 | 0.1   |2.2615564394475886e+213
+ 50    |1.2812129304732847e+210 | 2 |6.221479821638222e+211 | 1.0   |nan
+ 100   |1.4262026509901212e+215 | 4 |-6.2414197216768884e+209 | 10.0  |nan
+ 200   |5.669105892599309e+217 | 8 |7.632064314622643e+206 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |9.463172948959124e+23 | 1 |4.545580875819461e+106 | 0.1   |9.257072174576317e+99
+ 50    |2.763597412547109e+84 | 2 |4.824020828059737e+113 | 1.0   |6.976346928108106e+201
+ 100   |2.458482467043733e+113 | 4 |4.3905100992513477e+108 | 10.0  |-2.9226632773053035e+300
+ 200   |4.789984752701201e+140 | 8 |1.9293768070774775e+103 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |2.4856409122087888e+210 | 1 |3.038863129977156e+216 | 0.1   |-8.054205714456736e+214
+ 50    |-1.3301475080717356e+211 | 2 |-1.9630716055201428e+214 | 1.0   |nan
+ 100   |2.477363850573087e+214 | 4 |-1.1126160402255168e+212 | 10.0  |nan
+ 200   |1.770181550703144e+220 | 8 |5.021427897507678e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |2.5024802782000747e+23 | 1 |2.375165063901204e+115 | 0.1   |2.5496372619890895e+102
+ 50    |1.6467706341591498e+76 | 2 |-6.423413840593868e+107 | 1.0   |5.436083507690072e+200
+ 100   |2.0811170159144658e+109 | 4 |1.5566965757356198e+107 | 10.0  |nan
+ 200   |-1.2761135426690757e+141 | 8 |2.3205364822257557e+102 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-4.4870359346120733e+210 | 1 |2.1759966972141229e+217 | 0.1   |5.0437618866491745e+213
+ 50    |3.7395091212551503e+211 | 2 |-1.2203785366082375e+213 | 1.0   |nan
+ 100   |-7.530891666344876e+214 | 4 |1.0712069419134105e+212 | 10.0  |nan
+ 200   |1.1512220007191568e+217 | 8 |1.0616987092027706e+208 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |180642133.60725474 | 1 |-4.2776235568409354e+120 | 0.1   |7.309369393055415e+109
+ 50    |1.8663553612269406e+79 | 2 |1.9875572522386216e+113 | 1.0   |-7.2595159075958415e+211
+ 100   |6.534645882876218e+106 | 4 |-3.1287467673240004e+103 | 10.0  |nan
+ 200   |2.8206267817815265e+137 | 8 |-2.1975013977608078e+101 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-2.810126781564308e+210 | 1 |-1.8338606480109386e+218 | 0.1   |-5.797468387307523e+213
+ 50    |2.0124360891240184e+213 | 2 |5.001045589126764e+215 | 1.0   |nan
+ 100   |-7.736169817597755e+212 | 4 |1.7920539390079883e+209 | 10.0  |nan
+ 200   |9.425193629791585e+216 | 8 |4.0571723920307434e+208 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-4.297453500405771e+29 | 1 |1.2779856434424265e+114 | 0.1   |3.363489014477811e+114
+ 50    |5.061914233503368e+73 | 2 |-3.6100856962245572e+112 | 1.0   |1.77885898646992e+214
+ 100   |1.7194671106111564e+114 | 4 |2.7966726163805136e+108 | 10.0  |nan
+ 200   |-1.5277714699669322e+140 | 8 |-2.41944922114597e+108 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.2417820504420954e+210 | 1 |-2.3634029207321836e+220 | 0.1   |9.468875952291304e+213
+ 50    |9.223161196613771e+211 | 2 |2.568831871387737e+215 | 1.0   |nan
+ 100   |5.435230415159559e+213 | 4 |4.860984283347268e+211 | 10.0  |nan
+ 200   |5.452838649413212e+217 | 8 |6.589560352848724e+206 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |5.773820805604853e+23 | 1 |1.8142959773840674e+118 | 0.1   |2.0981696536407788e+102
+ 50    |1.5168972049887213e+84 | 2 |1.715324889101169e+113 | 1.0   |-2.485563815923274e+211
+ 100   |1.5771005645757826e+104 | 4 |7.540422511446602e+109 | 10.0  |5.799871841313753e+307
+ 200   |3.0987144732049094e+145 | 8 |2.891342152248225e+103 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |4.475495849583765e+209 | 1 |5.022491001853893e+216 | 0.1   |1.354848961647384e+213
+ 50    |-3.181577098240367e+211 | 2 |2.168836909650311e+213 | 1.0   |nan
+ 100   |4.497628258161258e+214 | 4 |2.806125003213243e+210 | 10.0  |nan
+ 200   |3.920384173466373e+216 | 8 |1.1160408457585735e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.960212568244029e+38 | 1 |4.052583161313552e+112 | 0.1   |1.7375241324327423e+115
+ 50    |5.297694199102047e+86 | 2 |9.416960958602079e+109 | 1.0   |1.4771073335162112e+214
+ 100   |-1.7917353635961024e+114 | 4 |-1.0250994441682056e+101 | 10.0  |1.0563685800165717e+305
+ 200   |2.001057447711207e+137 | 8 |5.262550918387536e+107 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-3.9942699359746136e+209 | 1 |1.4463142205200143e+217 | 0.1   |-9.291799311422099e+214
+ 50    |-1.9873213353826429e+214 | 2 |6.400581237370447e+213 | 1.0   |nan
+ 100   |-3.1933169883082972e+212 | 4 |4.564996025064154e+212 | 10.0  |nan
+ 200   |-1.0703040577447539e+218 | 8 |1.1664999886531881e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-1512511410533.029 | 1 |4.79537621056658e+112 | 0.1   |6.899254420299416e+108
+ 50    |2.0000157941196543e+79 | 2 |6.037456694341677e+115 | 1.0   |1.7205155776975242e+213
+ 100   |7.109898504393373e+105 | 4 |-1.2673770150823505e+109 | 10.0  |nan
+ 200   |2.395761124962038e+140 | 8 |8.06841149006814e+101 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-7.039959206880416e+209 | 1 |-4.662824665723458e+218 | 0.1   |1.3687533394217064e+214
+ 50    |-1.5239093434912065e+211 | 2 |1.9746016908132543e+215 | 1.0   |nan
+ 100   |6.57289027778544e+214 | 4 |9.546795525015412e+209 | 10.0  |nan
+ 200   |3.52068871240161e+217 | 8 |2.7104980107370363e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-4.757333660277977e+19 | 1 |-2.493302719685074e+119 | 0.1   |5.297566298206638e+118
+ 50    |3.441938104548407e+73 | 2 |6.971677304369064e+108 | 1.0   |6.529829388378185e+209
+ 100   |2.3618327705620883e+108 | 4 |1.5389446920362367e+111 | 10.0  |-inf
+ 200   |-1.5655915078449812e+140 | 8 |-4.575118736050669e+101 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |2.7937239811708937e+211 | 1 |-2.5547344981198294e+218 | 0.1   |-6.493971182166055e+214
+ 50    |4.333990269255578e+212 | 2 |1.1323905096225124e+213 | 1.0   |nan
+ 100   |2.890184101498187e+215 | 4 |1.6870586344780237e+209 | 10.0  |nan
+ 200   |-1.4239707844932668e+217 | 8 |-3.613538886357251e+206 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |2312686825602.6743 | 1 |2.3615046593456623e+116 | 0.1   |-2.6167826761824895e+103
+ 50    |-9.665694780116781e+80 | 2 |3.147524702629351e+105 | 1.0   |1.265330827004492e+211
+ 100   |-9.451676505277336e+112 | 4 |-3.774923747467878e+104 | 10.0  |nan
+ 200   |-1.0223750724276194e+139 | 8 |3.1617015821317307e+105 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |7.228808292030386e+210 | 1 |3.654628648892706e+218 | 0.1   |1.4453859509763066e+211
+ 50    |6.164551523922901e+211 | 2 |-6.060894727779879e+215 | 1.0   |nan
+ 100   |7.909958870814523e+214 | 4 |3.244331707193799e+211 | 10.0  |nan
+ 200   |9.560147529481475e+217 | 8 |-2.6269562777609943e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |16.534368868192804 | 1 |-1.4028369261034433e+116 | 0.1   |3.0832049148270723e+107
+ 50    |9.544258390804004e+81 | 2 |1.1027677029729915e+107 | 1.0   |1.5827510704368958e+207
+ 100   |3.5079513433247546e+111 | 4 |2.821300147159528e+103 | 10.0  |nan
+ 200   |6.357842045279456e+136 | 8 |1.0323893014230589e+107 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |2.23864905923315e+208 | 1 |1.6492880999057154e+217 | 0.1   |1.7221338817334472e+213
+ 50    |-9.631078185999422e+211 | 2 |5.2711273225207244e+212 | 1.0   |nan
+ 100   |5.693006497562238e+215 | 4 |4.323632763919489e+209 | 10.0  |nan
+ 200   |2.7735465228963215e+216 | 8 |4.1193525894004835e+206 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |31629653.54722107 | 1 |4.9424364600594764e+119 | 0.1   |-9.384067921392853e+115
+ 50    |3.866392810036961e+73 | 2 |-4.185522755792585e+117 | 1.0   |6.732083600110247e+205
+ 100   |-5.881020461152334e+109 | 4 |1.1884651114275092e+110 | 10.0  |2.468580853090591e+307
+ 200   |-3.7994055507195297e+136 | 8 |-2.0453554329020384e+102 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |2.117576602466677e+209 | 1 |3.3534994258753144e+214 | 0.1   |-2.2367060599806936e+215
+ 50    |1.6778877199291408e+212 | 2 |1.143044456416592e+214 | 1.0   |nan
+ 100   |2.5138832825745677e+215 | 4 |1.2431418242379432e+210 | 10.0  |nan
+ 200   |5.664905805458244e+217 | 8 |1.5603370402776056e+206 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |3.2852567218469663e+19 | 1 |-6.812532087184896e+117 | 0.1   |1.791128100069256e+112
+ 50    |-1.3599801224507158e+78 | 2 |4.758655038938794e+109 | 1.0   |3.3548720979853076e+200
+ 100   |-3.159104976751027e+116 | 4 |1.0258996756054082e+108 | 10.0  |5.813304379322257e+304
+ 200   |3.205064113158169e+141 | 8 |-2.5836547481311277e+105 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |6.861775420881827e+208 | 1 |2.8415752034524604e+218 | 0.1   |4.8868458162785736e+215
+ 50    |2.4313958147001828e+213 | 2 |-7.949033916957899e+212 | 1.0   |nan
+ 100   |-2.748847375367414e+214 | 4 |-1.6477711913566989e+212 | 10.0  |nan
+ 200   |-9.62897424341301e+217 | 8 |-2.023940752827107e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |222210838589.31702 | 1 |1.048498682202552e+115 | 0.1   |1.3688696322466742e+109
+ 50    |4.331434069256869e+68 | 2 |-2.0447571514836e+107 | 1.0   |2.4957238892139768e+206
+ 100   |5.274163067686632e+100 | 4 |-6.538832571261431e+102 | 10.0  |nan
+ 200   |1.031249162317036e+134 | 8 |-9.862676818049747e+102 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.0991785244859063e+211 | 1 |2.018629486284991e+218 | 0.1   |1.1666546792222745e+213
+ 50    |-1.1556324470655328e+211 | 2 |3.6610635816492964e+213 | 1.0   |nan
+ 100   |1.869850829829545e+212 | 4 |-2.7752181031330745e+210 | 10.0  |nan
+ 200   |9.41827661060726e+218 | 8 |4.9963895597982694e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |34486.99553457892 | 1 |7.971186299368589e+108 | 0.1   |1.962894937549345e+113
+ 50    |5.3682770757674206e+79 | 2 |1.3274255745294257e+111 | 1.0   |1.4262489057588542e+208
+ 100   |8.087157865994455e+112 | 4 |3.288654377702259e+111 | 10.0  |nan
+ 200   |1.0189532117848103e+142 | 8 |6.628621549504055e+105 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |7.24046685105125e+207 | 1 |1.3261402344818238e+216 | 0.1   |5.795881679561243e+215
+ 50    |7.180892594247852e+209 | 2 |6.798717609946388e+212 | 1.0   |nan
+ 100   |5.208894669842217e+214 | 4 |1.536252413110984e+211 | 10.0  |nan
+ 200   |2.8640681784164634e+218 | 8 |1.6515416495739516e+206 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |0.2819572084565329 | 1 |1.5209556191952232e+109 | 0.1   |-3.539851436559606e+108
+ 50    |1.2080233555974786e+76 | 2 |-2.0370980783508147e+107 | 1.0   |5.0275062602879866e+206
+ 100   |3.0759995681514826e+104 | 4 |9.39016043319223e+103 | 10.0  |-inf
+ 200   |-6.37160051823048e+141 | 8 |2.8280928663633546e+103 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-1.789194054737817e+210 | 1 |5.653988483925868e+219 | 0.1   |-8.424980555228248e+214
+ 50    |1.0420787746382297e+210 | 2 |2.9258858299320865e+213 | 1.0   |nan
+ 100   |3.254590873259859e+212 | 4 |3.758755946023058e+209 | 10.0  |nan
+ 200   |-9.410806117007835e+216 | 8 |4.922142003006977e+208 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-111030989195.0353 | 1 |1.6605394849938873e+108 | 0.1   |2.647043679342675e+112
+ 50    |2.9630071456308273e+69 | 2 |7.771493058438369e+105 | 1.0   |8.629389966108618e+213
+ 100   |3.0751777888999723e+113 | 4 |-2.6413837866338894e+103 | 10.0  |nan
+ 200   |4.147782675843174e+143 | 8 |1.8626416759119118e+100 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |2.2082690441551187e+209 | 1 |2.074987615257864e+218 | 0.1   |9.320842998156603e+211
+ 50    |-3.095807529458024e+210 | 2 |1.0061978904055831e+213 | 1.0   |nan
+ 100   |5.1896201894310066e+212 | 4 |4.6076555325565584e+210 | 10.0  |nan
+ 200   |6.4100381449629616e+218 | 8 |-9.8459806547834e+209 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |0.39946545374224174 | 1 |-1.3750336711125222e+108 | 0.1   |1.195464822638583e+106
+ 50    |1.0298996934812005e+86 | 2 |1.0527322028949962e+110 | 1.0   |2.8432728670152656e+204
+ 100   |5.8123611858801455e+113 | 4 |9.971545739206162e+100 | 10.0  |2.243725905236675e+301
+ 200   |3.39866402036759e+143 | 8 |-2.050144287692182e+104 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |2.5494631968652987e+210 | 1 |1.3515686151304811e+219 | 0.1   |-3.023722795230347e+213
+ 50    |2.05627558454757e+212 | 2 |2.1670934641196004e+212 | 1.0   |nan
+ 100   |-7.427742822466881e+213 | 4 |1.0110191656431314e+210 | 10.0  |nan
+ 200   |1.0454333739952234e+217 | 8 |1.8018362537823652e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.0173766401275547e+17 | 1 |7.377284841675986e+119 | 0.1   |6.12359667238757e+108
+ 50    |-8.953539959263947e+85 | 2 |1.0609083110224302e+104 | 1.0   |-1.0978898000646534e+216
+ 100   |1.6412858732066194e+108 | 4 |-4.431563737879841e+105 | 10.0  |nan
+ 200   |1.0558853839212934e+139 | 8 |6.669058297244642e+104 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-2.07176904540019e+210 | 1 |4.847590308635903e+217 | 0.1   |3.501520344524358e+214
+ 50    |2.932680612646422e+213 | 2 |1.5005307381745495e+216 | 1.0   |nan
+ 100   |2.4051722639317367e+213 | 4 |7.869817860774859e+210 | 10.0  |nan
+ 200   |-1.2822745966436432e+217 | 8 |1.859194279106361e+206 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |7607657681.959407 | 1 |2.3523304148498917e+117 | 0.1   |1.3424227092022626e+113
+ 50    |1.2510294253402544e+87 | 2 |1.8626011116782328e+112 | 1.0   |-3.4252774504026406e+214
+ 100   |4.333494006966124e+110 | 4 |5.508926259686591e+104 | 10.0  |1.0718833349534291e+306
+ 200   |-1.7456151715758696e+139 | 8 |4.852648268757867e+101 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |2.4847756700443987e+208 | 1 |3.0491365353730256e+219 | 0.1   |1.5878848054884207e+215
+ 50    |-2.351295907593162e+213 | 2 |5.396936227780599e+215 | 1.0   |nan
+ 100   |1.944168495438501e+214 | 4 |2.8398685635458535e+210 | 10.0  |nan
+ 200   |2.536377354056239e+219 | 8 |-1.2459479069179761e+209 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |2.34279531467458e+23 | 1 |2.676343878117755e+114 | 0.1   |2.2507451555428074e+109
+ 50    |2.6925428089427353e+77 | 2 |4.635851101467152e+112 | 1.0   |-3.1150323024469405e+211
+ 100   |1.5780946079654223e+110 | 4 |1.466406613410248e+100 | 10.0  |7.303308756353538e+305
+ 200   |1.7255405787286054e+136 | 8 |3.126865905445952e+104 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-8.224081940224896e+209 | 1 |8.203245763937687e+217 | 0.1   |5.6825041335030605e+212
+ 50    |3.937508283616992e+212 | 2 |-8.395452854425826e+214 | 1.0   |nan
+ 100   |5.57091308492374e+215 | 4 |4.861488940297035e+208 | 10.0  |nan
+ 200   |1.8332366619617454e+218 | 8 |-2.2694496879890996e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |33.105582706219536 | 1 |1.5630491588013527e+115 | 0.1   |1.4727007957547217e+112
+ 50    |-6.3414889009447405e+78 | 2 |6.199105835058454e+113 | 1.0   |-9.307304647200071e+208
+ 100   |1.477835025061924e+111 | 4 |-1.5295463149263359e+106 | 10.0  |-1.74294270221403e+305
+ 200   |-1.3115603084634156e+142 | 8 |-4.77009194416044e+106 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.873972668316769e+209 | 1 |1.373546009524462e+218 | 0.1   |1.0578578638484961e+215
+ 50    |3.595468240434825e+211 | 2 |7.539515897157456e+214 | 1.0   |nan
+ 100   |-1.0162745197972116e+215 | 4 |1.7153280802927605e+208 | 10.0  |nan
+ 200   |4.6618795191914155e+216 | 8 |-7.898400918184576e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |89994629695.42435 | 1 |-3.208314467281618e+114 | 0.1   |-1.2518958987789966e+105
+ 50    |1.444738299903465e+82 | 2 |3.619371359215702e+114 | 1.0   |2.175857248653924e+201
+ 100   |1.5897896290177855e+102 | 4 |-5.501833361503429e+105 | 10.0  |nan
+ 200   |2.047570016260969e+139 | 8 |5.403400960668278e+103 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |8.848725321818371e+208 | 1 |3.3062178159867884e+218 | 0.1   |3.494100574486856e+215
+ 50    |-7.115310991424298e+210 | 2 |-1.584765859958402e+215 | 1.0   |nan
+ 100   |8.431010787221646e+213 | 4 |-1.0329736134021042e+210 | 10.0  |nan
+ 200   |4.395497729266238e+215 | 8 |-2.4751174069678843e+208 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-17152707.216563214 | 1 |-1.6465087566325106e+118 | 0.1   |3.219298049499785e+112
+ 50    |-4.265533157264016e+83 | 2 |1.917523908998881e+107 | 1.0   |7.5067469798538e+210
+ 100   |-4.462915271504992e+110 | 4 |-3.0904895085645947e+111 | 10.0  |-inf
+ 200   |2.8629310726257233e+137 | 8 |4.7756328206790796e+101 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |4.068912961491508e+212 | 1 |1.522667941803755e+217 | 0.1   |1.6504300392110376e+215
+ 50    |6.412664311668106e+211 | 2 |1.4034162141939654e+213 | 1.0   |nan
+ 100   |1.0585121870743924e+213 | 4 |9.213106964507121e+210 | 10.0  |nan
+ 200   |1.8045832491496834e+217 | 8 |-1.0980292604829625e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.1770998343497352e+17 | 1 |5.047352802684239e+114 | 0.1   |2.2696399534563454e+113
+ 50    |6.268825050991161e+75 | 2 |1.2783235846402743e+107 | 1.0   |-3.001389098428917e+206
+ 100   |-1.3074613842700667e+113 | 4 |1.1971839419182339e+110 | 10.0  |nan
+ 200   |1.1661443975666693e+142 | 8 |3.4134063410387392e+103 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.62478106309587e+210 | 1 |-6.534151327883731e+218 | 0.1   |2.8324925217693804e+214
+ 50    |8.2143060827167e+211 | 2 |4.21448216383771e+215 | 1.0   |nan
+ 100   |-9.58058361817666e+214 | 4 |4.837453638750577e+211 | 10.0  |nan
+ 200   |3.085493673770858e+217 | 8 |-4.1975075109402567e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |4.435342061440804e+24 | 1 |-3.8811753084542345e+113 | 0.1   |1.0901504632933053e+109
+ 50    |6.282695240051364e+80 | 2 |1.1114834239119378e+115 | 1.0   |9.633530399950132e+206
+ 100   |4.858703459778015e+105 | 4 |4.069225306586355e+113 | 10.0  |nan
+ 200   |-2.995684584941822e+137 | 8 |5.834678622014509e+102 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-3.862262252937514e+210 | 1 |7.004046467872871e+217 | 0.1   |-4.8938811413925154e+213
+ 50    |2.346008584552684e+213 | 2 |3.579987900835508e+212 | 1.0   |nan
+ 100   |-8.756078561599857e+212 | 4 |6.043446677041595e+210 | 10.0  |nan
+ 200   |3.142337975229202e+217 | 8 |-1.6133585948663743e+205 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.4619902258800357e+30 | 1 |9.88961281654279e+112 | 0.1   |4.986817586407131e+107
+ 50    |1.1339567821752384e+87 | 2 |-4.9300775127757725e+109 | 1.0   |8.335699028630668e+207
+ 100   |2.860835552437352e+109 | 4 |6.096607826792125e+102 | 10.0  |nan
+ 200   |4.446987731317298e+143 | 8 |2.5358681834882754e+103 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |2.4284456088697287e+207 | 1 |-2.7094011360412828e+218 | 0.1   |4.973895400368286e+213
+ 50    |1.488694399642186e+212 | 2 |2.0705802400736193e+214 | 1.0   |nan
+ 100   |1.9588899193613342e+213 | 4 |1.8434709595352786e+210 | 10.0  |nan
+ 200   |-5.13094594325114e+220 | 8 |2.4939525532758424e+209 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |2.1609609580098617e+31 | 1 |1.0858514710929044e+105 | 0.1   |1.5620475703756194e+106
+ 50    |-7.859725662753783e+86 | 2 |-1.4128151751261687e+114 | 1.0   |-1.5439256686766505e+213
+ 100   |-1.5995383708859058e+109 | 4 |3.611190978164333e+102 | 10.0  |-inf
+ 200   |5.495569877393121e+138 | 8 |1.441437064302413e+105 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-9.740011772478286e+212 | 1 |9.381402300776995e+217 | 0.1   |2.4287051174030895e+215
+ 50    |1.1246420752563472e+212 | 2 |4.885153678522617e+215 | 1.0   |nan
+ 100   |8.1487792926290535e+214 | 4 |5.55319822077979e+210 | 10.0  |nan
+ 200   |5.470372376975281e+217 | 8 |3.083254670672823e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |3900377344491932.0 | 1 |-5.887775137223824e+112 | 0.1   |3.006108223019421e+105
+ 50    |-1.542943610570632e+77 | 2 |9.377051425520647e+112 | 1.0   |-1.1200379664711533e+209
+ 100   |4.5250197509263984e+111 | 4 |1.8184681715117387e+103 | 10.0  |nan
+ 200   |1.0016886119644676e+140 | 8 |2.8611343669399314e+107 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |3.226178796000382e+210 | 1 |2.1716421468530835e+216 | 0.1   |3.920901825295131e+213
+ 50    |4.801961978507288e+212 | 2 |-4.539338147523738e+214 | 1.0   |nan
+ 100   |-3.740930037902427e+215 | 4 |9.200630584344656e+208 | 10.0  |nan
+ 200   |-2.59798310222858e+218 | 8 |4.096517059904767e+207 | 100.0 |nan
+
+Table: Training accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |-1.8767451639943852e+18 | 1 |-3.7360565423263436e+111 | 0.1   |-4.9213704024168455e+107
+ 50    |7.184319948227954e+78 | 2 |-7.468730060892563e+101 | 1.0   |-1.5819334641347882e+204
+ 100   |1.3258701633847002e+106 | 4 |2.0220198154728718e+109 | 10.0  |-inf
+ 200   |-1.922588738481227e+142 | 8 |2.3285122341524413e+101 | 100.0 |nan
+
+Table: Test accuracies with different hyper-parameters
+ n Train Accuracy  | d Train Accuracy  | eta  Train Accuracy
+ 10    |1.6772170644314406e+208 | 1 |-3.2129071383124196e+218 | 0.1   |-5.470861587194502e+213
+ 50    |9.442963359332107e+212 | 2 |7.346182358752401e+213 | 1.0   |nan
+ 100   |1.153943092266797e+213 | 4 |7.771180621489425e+210 | 10.0  |nan
+ 200   |-1.6000391726757255e+218 | 8 |4.3407632922284933e+207 | 100.0 |nan
