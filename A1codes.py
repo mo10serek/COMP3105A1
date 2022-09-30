@@ -493,19 +493,8 @@ def loadData(dataset_folder, dataset_name):
     return
 
 
-#realExperiments("C:/Machine Learning/A1/COMP3105A1/auto-mpg.data", "auto-mpg.data")
-def realExperiments(dataset_folder, dataset_name):
-    return
 
-# loadData("C:/Users/Kubaz/Downloads/parkinsons.data", "parkinsons.data")
-
-
-<<<<<<< HEAD
-realExperiments("C:/Machine Learning/A1/COMP3105A1/sonar.all-data", "sonar.all-data")
-=======
-#synRegExperiments()
-#synClsExperiments()
->>>>>>> 6b5df19380b6a9d849750244f65d30f28e90f378
+#realExperiments("C:/Machine Learning/A1/COMP3105A1/sonar.all-data", "sonar.all-data")
 
 #synRegExperiments()
 #synClsExperiments()
